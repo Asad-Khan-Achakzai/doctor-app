@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button (click)="back()" defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <div class="title">
+      <ion-title>{{emptySlots}}</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-card>
+  <ion-item *ngFor="let slot of slots">
+    <ion-grid>
+    <ion-row>
+      <ion-col size ="12">
+        {{slot.DateAndTime}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size ="12">
+        <ion-button expand="full" shape="round"[disabled]="slot.status == 'booked'" (click)="goToPayment(slot)">{{bookAppointment}}</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  </ion-item>
+  
+</ion-card>
+</ion-content>

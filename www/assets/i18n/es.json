@@ -1,0 +1,18 @@
+{
+    "Home": {
+        "title": "ښه راغلاست",
+        "username": "نوم",
+        "password": "رمز",
+        "userType": "کارن ډول",
+        "login": "د ننه کیدل",
+        "signUp": "ګډون کول",
+        "forgotPassword": "پټ نوم درڅخه هیر دی"
+    },
+    "PatientDashboard":{
+        "title": "ډشبورډ",
+        "Appointments": "مقرری",
+        "Records": "سوانح",
+        "AccountSetting": "د حساب د ځای جوړولو",
+        "Forum":"فورم"
+    }
+}

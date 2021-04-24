@@ -1,0 +1,239 @@
+<ion-header translucent no-border>
+  <ion-toolbar>
+    <ion-title>&nbsp;</ion-title>
+      <ion-menu-toggle slot="start">
+      <ion-menu-button   autoHide="false"></ion-menu-button>
+    </ion-menu-toggle>
+    <ion-buttons slot="end">
+      <ion-title >Rank: {{rank}}</ion-title>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+<ion-content
+  fullscreen="true"
+  slot="fixed"
+  id="mainContent"
+  class="grayClor"
+>
+<ion-refresher slot="fixed" (ionRefresh)="getUsersList($event)">
+  <ion-refresher-content></ion-refresher-content>
+</ion-refresher>
+  <div class="card">
+    <div class="header">
+      <div class="avatar">
+        <img *ngIf="image && image!='null'" [src]="image" />
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="user-meta ion-text-center">
+        <h3 class="playername">
+          <div id="name">{{companyName}}
+        </div>
+        </h3>    
+      </div>
+      <ion-toolbar  class="backgroundTransparent" >
+        <ion-segment
+          (ionChange)="segmentChanged($event)"
+          [(ngModel)]="segment"
+          color="success"
+        >
+          <ion-segment-button value="0">
+            <ion-label style="color: black;">{{about}}</ion-label>
+            <ion-icon name="information-circle" color="primary"></ion-icon>
+          </ion-segment-button>
+          <ion-segment-button value="1">
+            <ion-label style="color: black;">{{appointments}}</ion-label>
+            <ion-icon name="alarm" color="primary"></ion-icon>
+          </ion-segment-button>
+        </ion-segment>
+      </ion-toolbar>
+      <ion-content id="cardsContent">
+          <ion-card *ngIf="segment == 0">
+            <ion-grid>
+              <div *ngIf="!loading">
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" shape="round">
+                    <ion-icon name="home-outline" id="icon"></ion-icon>
+                    <ion-label id ="locationLabel">
+                      {{officeLocation}}
+                    </ion-label>
+                   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" shape="round">
+                    <ion-icon name="person-circle-outline" id="icon"></ion-icon>
+                    {{userName}}</ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" shape="round">
+                    <ion-icon name="call-outline" id="icon"></ion-icon>
+                    {{phone}}</ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" shape="round">
+                    <ion-icon name="reader-outline" id="icon"></ion-icon>
+                    {{cnic}}</ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" shape="round">
+                    <ion-icon name="mail-outline" id="icon"></ion-icon>
+                    {{email}}</ion-button
+                  >
+                </ion-col>
+              </ion-row>
+            </div>
+              <div *ngIf="loading">
+                <ion-card>
+                  <ion-item>
+                    <ion-label>
+                      <h3>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 50%;"
+                        ></ion-skeleton-text>
+                      </h3>
+                      <p>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 80%;"
+                        ></ion-skeleton-text>
+                      </p>
+                      <p>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 80%;"
+                        ></ion-skeleton-text>
+                      </p>
+                    </ion-label>
+                  </ion-item>
+                </ion-card>
+              </div>
+            </ion-grid>
+          </ion-card>
+          <ion-card *ngIf="segment == 1">
+            <ion-grid>
+              <div *ngIf="!loading">
+                <ion-row>
+                  <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                    <ion-button expand="full" shape="round">
+                     Next 7 open days               
+                     </ion-button
+                    >
+                  </ion-col>
+                </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" (click)="daySelected(dateArray[0])" shape="round">
+                    {{dateArray[0]| date }}                  
+                   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full"  (click)="daySelected(dateArray[1])" shape="round">
+                    {{dateArray[1]| date }}   </ion-button>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full"  (click)="daySelected(dateArray[2])"shape="round">
+                    {{dateArray[2]| date }}   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full"  (click)="daySelected(dateArray[3])"shape="round">
+                    {{dateArray[3]| date }}   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full"  (click)="daySelected(dateArray[4])"shape="round">
+                    {{dateArray[4]| date }}   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full" (click)="daySelected(dateArray[5])" shape="round">
+                    {{dateArray[5]| date }}   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col size-md="12" size-lg="12" size-sm="12" size-xs="12">
+                  <ion-button expand="full"  (click)="daySelected(dateArray[6])"shape="round">
+                    {{dateArray[6]| date }}   </ion-button
+                  >
+                </ion-col>
+              </ion-row>
+            </div>
+              <div *ngIf="loading">
+                <ion-card>
+                  <ion-item>
+                    <ion-label>
+                      <h3>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 50%;"
+                        ></ion-skeleton-text>
+                      </h3>
+                      <p>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 80%;"
+                        ></ion-skeleton-text>
+                      </p>
+                      <p>
+                        <ion-skeleton-text
+                          animated
+                          style="width: 80%;"
+                        ></ion-skeleton-text>
+                      </p>
+                    </ion-label>
+                  </ion-item>
+                </ion-card>
+              </div>
+            </ion-grid>
+          </ion-card>
+          <!-- <ion-card>
+            <ion-grid>
+              <ion-row >
+         
+                <ion-col text-center size ="6" *ngFor="let tag of cities">
+                  <ion-item text-center>
+                    <ion-label id="cityLabel">{{tag}}</ion-label>                
+                  </ion-item>
+                </ion-col>
+          
+          </ion-row>
+          </ion-grid>
+          
+          </ion-card> -->
+        <!-- </ion-cards> -->
+        <ion-toolbar class="large-title-fix"></ion-toolbar>
+      </ion-content>
+    </div>
+  </div>
+</ion-content>
+
+
+<!-- <ion-content>
+<ion-button (click)="goToDoctorEditProfile()">Edit profile</ion-button>
+</ion-content> -->

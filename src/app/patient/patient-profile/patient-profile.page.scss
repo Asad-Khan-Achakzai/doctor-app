@@ -1,0 +1,160 @@
+#mainContent {
+    //  --background: linear-gradient(45deg, #ff0000, #1800f3, #ff0000);
+      position: relative;
+        height: 100%;
+        width: 100%;
+        ion-button {
+            --background: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
+            color: white;
+        }
+    }
+    ion-card{
+       --background: transparent;
+    }
+    #cardsContent{
+       --background: transparent;
+    }
+    ion-badge {
+        background-color: red;
+        position: absolute;
+        top: -3px;
+        right: -3px;
+        border-radius: 100%;
+    }
+   //  ion-toolbar {
+   //      --background: transparent;
+   //  }
+    .scroll-y {
+       touch-action: pan-y;
+       overflow-y: var(--overflow);
+       --ion-background-color: rgb(0, 0, 0,0);
+   }
+    ion-chip {
+        --background: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
+        color: white;
+    }
+    
+    .card {
+        margin: 0 auto;
+    
+        .header {
+            height: 200px; // 20vh;
+    
+            .avatar {
+                width: 160px; //40vw
+                height: 160px;
+                position: relative;
+                margin: 0 auto;
+    
+                img {
+                    display: block;
+                    border-radius: 50%;
+                    position: absolute;
+                    bottom: calc(-1*(80px + 4px)); // -42px;
+                    border: 8px solid #080f77;
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+    
+    .card-body {
+      // background: linear-gradient(#00449e, #e66465);
+        height: calc(100vh - (200px + 56px));
+        overflow: hidden;
+    
+        .user-meta {
+            padding-top: 10px;
+    
+            .playername {
+                position: absolute;
+                font-size: 20px;
+                font-weight: 600;
+                color: #fcfcfc;
+                width: 50%;
+                       }
+        }
+    }
+    
+    .ranking{
+        font-weight: 600;
+        color: #fcfcfc;
+        width: 50%;
+        margin-left: 60%;
+    }
+    .slide{
+        height: 50%;
+    }
+    
+    
+   //  ion-slides{
+   //      overflow-y: scroll;
+   //    }
+      .user-img {
+        //position: absolute;
+        object-fit: cover;
+        border-radius: 45px;
+        border: 2px solid #fff;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.36);
+      }
+    //   .nameAvatar {
+    //     display: flex;
+    //     /* justify-content: center; */
+    //     align-items: center;
+    //     width: 50%;
+    //     h2 {
+    //       font-size: 0.94em;
+    //       font-weight: bold;
+    //     }
+    //   }
+      .online {
+        position: absolute;
+        // right: 6px;
+        
+        left: 48px;
+        top: 58%;
+        width: 10px;
+        //background: #92ff92;
+        color: rgb(228, 10, 10);
+        height: 10px;
+        border-radius: 50%;
+      }
+      #icon{
+        margin-right: auto;
+    }
+    ion-button{
+        --background:  #867b7b;  
+        --color: rgb(0, 0, 0);
+    }
+    #list{
+        width: 500px;
+    }
+    #locationLabel{
+       font-size: xx-small;
+   
+    }
+   //  ion-item{
+   //      --background: linear-gradient(to right, #780206 0%, #061161 51%, #780206 100%);
+   //          color: white;
+   //  }
+    ion-list{
+        background-color: transparent;
+    }
+    #slidesContent{
+        height: 250px;
+    --ion-background-color: rgb(0, 0, 0,0);
+    }
+    .badge-two {
+        position: absolute;
+        top: 0px;
+        right: -5px;
+        font-size: 0.6em;
+        --padding-start: 3px;
+        --padding-end: 3px;
+      }
+      #cityLabel{
+        text-align: center;
+      }
+      ion-toolbar.large-title-fix {
+        padding-top: env(safe-area-inset-top);
+      }

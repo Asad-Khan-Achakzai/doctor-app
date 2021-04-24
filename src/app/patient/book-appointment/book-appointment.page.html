@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <div class="title">
+      <ion-title color="black">{{title}}</ion-title>
+    </div>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-searchbar [placeholder]="filterDoc" [(ngModel)]="doctorName"></ion-searchbar>
+  <ion-searchbar [placeholder]="filterSpecialities" [(ngModel)]="doctorSpeciality"></ion-searchbar>
+  <ion-searchbar [placeholder]="filterCity"[(ngModel)]="doctorLocation"></ion-searchbar>
+  <ion-button shape="round" size="full" (click)="searchDoctor()">{{searchLabel}}</ion-button>
+
+  <ion-list class="ion-no-padding">
+    <div>
+
+      <div *ngFor="let chat of doctors; let i=index">
+        <ion-item (click)="goforDoctorProfile(chat)">
+          <ion-thumbnail slot="start">
+            <ion-img class="user-img" [src]="chat.imageUrl"></ion-img>
+          </ion-thumbnail>
+          <ion-label>
+            <div class="withcount">
+              <div class="nameAvatar">
+                <h2>{{chat.username}}
+                </h2>
+              </div>
+
+              <div class="timeEnd">
+                <ion-text slot="end">Rating</ion-text>
+
+              </div>
+            </div>
+            <div>
+              <div class="withcount">
+                <p class="widthHalf2">{{chat.location}}</p>
+                <p class="widthHalf1">{{chat.specialities}}</p>
+              </div>
+
+            </div>
+
+          </ion-label>
+        </ion-item>
+
+      </div>
+    </div>
+
+  </ion-list>
+</ion-content>

@@ -1,0 +1,70 @@
+<ion-content class="grayClor">
+  <ion-grid>
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <div [formGroup]="Form">
+          <ion-card>
+            <ion-card-header>
+                <div class="title">
+                  <ion-card-title color="dark">{{title}}</ion-card-title>
+                </div>
+            </ion-card-header>
+          </ion-card>
+          <ion-card-content>
+            <ion-item>
+              <ion-label color="dark" position="floating">
+                {{username }}
+              </ion-label>
+              <ion-input type="text" formControlName="email">
+              </ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="dark" position="floating">
+                {{password}}
+              </ion-label>
+              <ion-input type="password" formControlName="password">
+              </ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label color="dark">{{userType}}</ion-label>
+              <ion-select formControlName="slectedGender" >
+                <ion-select-option value="patient">Patient</ion-select-option>
+                <ion-select-option value="doctor">Doctor</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <ion-item>
+              <ion-label  color="dark">{{Language}}</ion-label>
+              <ion-select [(ngModel)]="language"  [ngModelOptions]="{ standalone: true }" (ionChange)="optionsFn()" >
+                <ion-select-option value="English">English</ion-select-option>
+                <ion-select-option value="Pashtoo">Pashtoo</ion-select-option>
+              </ion-select>
+            </ion-item>
+            <!-- <ion-row>
+              <ion-col size="7">
+              </ion-col>
+              <ion-col size="5">
+                <ion-row>
+                  <a (click)="forgotPass()" id="pass">{{forgotPassword}}</a>
+                </ion-row>
+              </ion-col>
+            </ion-row> -->
+            <ion-row justify-content-center>
+              <div padding id="buttonDIv">
+                <ion-button size="large" id="logButton" expand="full" shape="round" (click)="loginButton()"
+                  [disabled]="!Form.valid">
+                  {{login}} &nbsp;<ion-spinner *ngIf="loading"></ion-spinner>
+                </ion-button>
+              </div>
+            </ion-row>
+            <ion-row justify-content-center>
+              <div padding id="buttonDIv">
+                <ion-button size="large" color="dark" expand="full" shape="round" fill="outline" (click)="signUp()">
+                  {{sign_Up}}</ion-button>
+              </div>
+            </ion-row>
+          </ion-card-content>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

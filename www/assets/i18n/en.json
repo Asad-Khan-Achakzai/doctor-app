@@ -1,0 +1,18 @@
+{   "Home":{
+    "title": "Welcome",
+    "username": "User Name",
+    "password": "Password",
+    "userType": "User Type",
+    "login":"Login",
+    "signUp":"SignUP",
+    "forgotPassword":"Forgot Password"
+},
+"PatientDashboard":{
+    "title": "Dashboard",
+    "Appointments": "Appointments",
+    "Records": "Records",
+    "AccountSetting": "Account Setting",
+    "Forum":"Forum"
+}
+    
+}

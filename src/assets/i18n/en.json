@@ -1,0 +1,44 @@
+{
+    "Home": {
+        "title": "Welcome",
+        "username": "User Name",
+        "password": "Password",
+        "userType": "User Type",
+        "login": "Login",
+        "signUp": "SignUP",
+        "forgotPassword": "Forgot Password",
+        "Language":"Language"
+    },
+    "PatientDashboard": {
+        "title": "Dashboard",
+        "Appointments": "Appointments",
+        "Records": "Records",
+        "AccountSetting": "Account Setting",
+        "Forum": "Forum"
+    },
+    "DoctorProfile": {
+        "About": "About",
+        "Appointments": "Appointments"
+    },
+    "Menu": {
+        "Profile": "Profile",
+        "Settings": "Settings",
+        "MyAppointments": "My Appointments",
+        "Logout":"Logout",
+        "Dashboard":"Dashboard"
+    },
+    "BookAppointment": {
+        "title": "Book an appointment",
+        "search": "search",
+        "filterDoc":"Filter Doctor name",
+        "filterSpecialities":"Filter Specialities",
+        "filterCity":"Filter city"  
+    },
+    "SlotsList": {
+        "emptySlots": "Empty Slots",
+        "bookAppointment": "book appointment",
+        "filterDoc":"Filter Doctor name",
+        "filterSpecialities":"Filter Specialities",
+        "filterCity":"Filter city"  
+    }
+}

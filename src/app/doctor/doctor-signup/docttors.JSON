@@ -1,0 +1,3475 @@
+{
+    "resourceType": "ValueSet",
+    "id": "v3-HealthcareProviderTaxonomyHIPAA",
+    "meta": {
+        "lastUpdated": "2014-12-11T00:00:00.000+11:00",
+        "profile": [
+            "http://hl7.org/fhir/Profile/valueset-shareable-definition"
+        ]
+    },
+    "text": {
+        "status": "generated",
+        "div": "<div>!-- Snipped for Brevity --></div>"
+    },
+    "url": "http://hl7.org/fhir/v3/vs/HealthcareProviderTaxonomyHIPAA",
+    "version": "2014-12-11",
+    "name": "v3 Code System HealthcareProviderTaxonomyHIPAA",
+    "publisher": "HL7, Inc",
+    "contact": [
+        {
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "http://hl7.org"
+                }
+            ]
+        }
+    ],
+    "description": "? not found",
+    "status": "active",
+    "experimental": false,
+    "date": "2014-12-11",
+    "define": {
+        "extension": [
+            {
+                "url": "http://hl7.org/fhir/ExtensionDefinition/valueset-oid",
+                "valueUri": "urn:oid:2.16.840.1.113883.5.53"
+            }
+        ],
+        "system": "http://hl7.org/fhir/v3/HealthcareProviderTaxonomyHIPAA",
+        "caseSensitive": true,
+        "concept": [
+            {
+                "code": "101Y00000N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Counselor",
+                "definition": "A provider who is trained and educated in the performance of behavior health services through interpersonal communications and analysis. Training and education at the specialty level usually requires a master's degree and clinical experience and supervision for licensure or certification.",
+                "concept": [
+                    {
+                        "code": "101YA0400N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Counselor; Addiction (Substance Use Disorder)"
+                    },
+                    {
+                        "code": "101YM0800N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Counselor; Mental Health"
+                    },
+                    {
+                        "code": "101YP1600N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Counselor; Pastoral"
+                    },
+                    {
+                        "code": "101YP2500N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Counselor; Professional"
+                    },
+                    {
+                        "code": "101YS0200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Counselor; School"
+                    }
+                ]
+            },
+            {
+                "code": "103GC0700N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Neuropsychologist; Clinical"
+            },
+            {
+                "code": "103S00000N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Psychoanalyst",
+                "definition": "(1) A practitioner of psychoanalysis: methods of eliciting from patients their past emotional experiences and their role in influencing their current mental life, in order to discover the conflicts and mechanisms by which their pathologic mental state has been produced and to furnish hints for psychotherapeutic procedures, the method employs free association, recall and interpretation of dreams and interpretation of transference and resistance phenomena; (2) An individual who is educated with a doctor's degree in psychoanalysis or psychology, trained at an established psychoanalytic institute, and practices or adheres to the principles of psychoanalysis. Psychoanalysis is a form of psychotherapy and a system of investigation for determining and understanding mental processes, which was originally conceived by Sigmund Freud. Psychoanalysis involves the analysis and interpretation of dreams, resistances, and transferences, and uses free association and catharsis. Clinical practice requires licensure.",
+                "concept": [
+                    {
+                        "code": "103SA1400N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychoanalyst; Associate"
+                    },
+                    {
+                        "code": "103SA1800N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychoanalyst; Affiliate"
+                    }
+                ]
+            },
+            {
+                "code": "103T00000N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Psychologist",
+                "definition": "An individual who specializes in psychological research, testing, and/or therapy. Psychology is the branch of science that deals with mental processes and behavior, composed of the following major fields: abnormal, clinical, comparative, counseling, developmental, educational, engineering, experimental, industrial, learning, motivation, perception, personality, physiological, psychometrics, school, and social psychology.",
+                "concept": [
+                    {
+                        "code": "103TA0400N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Addiction (Substance Use Disorder)"
+                    },
+                    {
+                        "code": "103TA0700N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Adult Development & Aging"
+                    },
+                    {
+                        "code": "103TB0200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Behavioral"
+                    },
+                    {
+                        "code": "103TC0700N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Clinical"
+                    },
+                    {
+                        "code": "103TC1900N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Counseling"
+                    },
+                    {
+                        "code": "103TC2200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Child, Youth & Family"
+                    },
+                    {
+                        "code": "103TE1000N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Educational"
+                    },
+                    {
+                        "code": "103TE1100N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Exercise & Sports"
+                    },
+                    {
+                        "code": "103TF0000N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Family"
+                    },
+                    {
+                        "code": "103TF0200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Forensic"
+                    },
+                    {
+                        "code": "103TH0100N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Health"
+                    },
+                    {
+                        "code": "103TM1700N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Men & Masculinity"
+                    },
+                    {
+                        "code": "103TM1800N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Mental Retardation & Developmental Disabilities"
+                    },
+                    {
+                        "code": "103TP2700N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Psychotherapy"
+                    },
+                    {
+                        "code": "103TP2701N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Psychotherapy, Group"
+                    },
+                    {
+                        "code": "103TR0400N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Rehabilitation"
+                    },
+                    {
+                        "code": "103TS0200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; School"
+                    },
+                    {
+                        "code": "103TW0100N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Psychologist; Women"
+                    }
+                ]
+            },
+            {
+                "code": "104100000N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Social Worker",
+                "definition": "A clinical social worker is a person who is qualified by a master of Social Work (M.S.W.) degree, licensed, certified or registered by the state as a social worker and practicing within the scope of that license. A social worker provides assistance and counseling to patients and their families and dealing with social, emotional and environmental problems.",
+                "concept": [
+                    {
+                        "code": "1041C0700N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Social Worker; Clinical"
+                    },
+                    {
+                        "code": "1041S0200N",
+                        "abstract": false,
+                        "display": "Behavioral Health & Social Service; Social Worker; School"
+                    }
+                ]
+            },
+            {
+                "code": "106H00000N",
+                "abstract": false,
+                "display": "Behavioral Health & Social Service; Marriage & Family Therapist",
+                "definition": "A mental health provider, e.g. social worker, psychologist, etc. who concentrates his/her practice on the social, emotional and psychological treatment of married couples and families."
+            },
+            {
+                "code": "111N00000N",
+                "abstract": false,
+                "display": "Chiropracters; Chiropractor",
+                "definition": "A provider qualified by a Doctor of Chiropractic (D.C.), licensed by the State and who practices chiropractic medicine -that discipline within the healing arts which deals with the nervous system and its relationship to the spinal column and its interrelationship with other body systems.",
+                "concept": [
+                    {
+                        "code": "111NI0900N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Internist"
+                    },
+                    {
+                        "code": "111NN0400N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Neurology"
+                    },
+                    {
+                        "code": "111NN1001N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Nutrition"
+                    },
+                    {
+                        "code": "111NR0200N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Radiology"
+                    },
+                    {
+                        "code": "111NS0005N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Sports Physician"
+                    },
+                    {
+                        "code": "111NT0100N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Thermography"
+                    },
+                    {
+                        "code": "111NX0100N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Occupational Medicine"
+                    },
+                    {
+                        "code": "111NX0800N",
+                        "abstract": false,
+                        "display": "Chiropracters; Chiropractor; Orthopedic"
+                    }
+                ]
+            },
+            {
+                "code": "122300000N",
+                "abstract": false,
+                "display": "Dental Service Providers; Dentist",
+                "definition": "A dentist is a person qualified by a doctorate in dental surgery (D.D. S.) or dental medicine (D.M.D.). licensed by the state to practice dentistry, and practicing within the scope of that license. Many dentists are general practitioners who handle a wide variety of dental needs. Other dentists practice in one of eight specialty areas recognized by the American Dental Association: oral and maxillofacial surgery, orthodontics, periodontics, prosthodontics, endodontics, public health, oral pathology and pediatric dentistry.",
+                "concept": [
+                    {
+                        "code": "1223D0001Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Dental Public Health"
+                    },
+                    {
+                        "code": "1223E0200Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Endodontics"
+                    },
+                    {
+                        "code": "1223P0106Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Pathology, Oral & Maxillofacial"
+                    },
+                    {
+                        "code": "1223P0221Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Pediatrics Dentistry (Pedodontics)"
+                    },
+                    {
+                        "code": "1223P0300Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Periodontics"
+                    },
+                    {
+                        "code": "1223P0700Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Prosthodontics"
+                    },
+                    {
+                        "code": "1223S0112Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Surgery, Oral & Maxillofacial"
+                    },
+                    {
+                        "code": "1223X0400Y",
+                        "abstract": false,
+                        "display": "Dental Service Providers; Dentist; Orthodontics"
+                    }
+                ]
+            },
+            {
+                "code": "124Q00000N",
+                "abstract": false,
+                "display": "Dental Service Providers; Dental Hygienist",
+                "definition": "An individual who assists at the chairside in a dental operatory, performs reception and clerical functions, and does dental radiograph and selected dental laboratory procedures under the direction and supervision of a dentist. Post-high school education and education is not required, but many dental assistants are graduates of one or two-year post-high school education programs accredited by the Commission on Dental Accreditation. The balance of dental assistants are trained by the dentists who employ them."
+            },
+            {
+                "code": "126800000N",
+                "abstract": false,
+                "display": "Dental Service Providers; Dental Assistant",
+                "definition": "An individual who assists at the chairside in a dental operatory, performs reception and clerical functions, and does dental radiograph and selected dental laboratory procedures under the direction and supervision of a dentist. Post-high school education and education is not required, but many dental assistants are graduates of one or two-year post-high school education programs accredited by the Commission on Dental Accreditation. The balance of dental assistants are trained by the dentists who employ them."
+            },
+            {
+                "code": "126900000N",
+                "abstract": false,
+                "display": "Dental Service Providers; Dental Laboratory Technician",
+                "definition": "An individual trained or educated to perform one or more phases of the dental laboratory procedures required in the creation of a dental prosthetic, fabricated under a dental prescription (work authorization)."
+            },
+            {
+                "code": "1327D0700N",
+                "abstract": false,
+                "display": "Dietary & Nutritional Service Providers; Dietary Manager; Dietary Management"
+            },
+            {
+                "code": "133N00000N",
+                "abstract": false,
+                "display": "Dietary & Nutritional Service Providers; Nutritionist",
+                "definition": "A specialist in adapting and applying food and nutrient knowledge to the solution of food and nutritional problems, the control of disease, and the promotion of health. Nutritionists perform research, instruct groups and individuals about nutritional requirements, and assist people in developing meal patterns that meet their nutritional needs; (2) A nutritionist is someone who has completed undergraduate and/or graduate training in the discipline of nutrition without necessarily meeting the academic and experience requirements to qualify for the Registered Dietitian designation.",
+                "concept": [
+                    {
+                        "code": "133NN1002N",
+                        "abstract": false,
+                        "display": "Dietary & Nutritional Service Providers; Nutritionist; Nutrition, Education"
+                    }
+                ]
+            },
+            {
+                "code": "133V00000N",
+                "abstract": false,
+                "display": "Dietary & Nutritional Service Providers; Dietician, Registered",
+                "definition": "A registered dietician (RD) is a food and nutrition expert who has successfully completed a minimum of a bachelor's degree at a US regionally accredited university or college and course work approved by The American Dietetic Association (ADA); an ADA-accredited or approved, supervised practice program, typically 6 to 12 months in length; a national examination administered by the Commission on Dietetic Registration; and continuing professional educational requirements to maintain registration.",
+                "concept": [
+                    {
+                        "code": "133VN1004N",
+                        "abstract": false,
+                        "display": "Dietary & Nutritional Service Providers; Dietician, Registered; Nutrition, Pediatric"
+                    },
+                    {
+                        "code": "133VN1005N",
+                        "abstract": false,
+                        "display": "Dietary & Nutritional Service Providers; Dietician, Registered; Nutrition, Renal"
+                    },
+                    {
+                        "code": "133VN1006N",
+                        "abstract": false,
+                        "display": "Dietary & Nutritional Service Providers; Dietician, Registered; Nutrition, Metabolic"
+                    }
+                ]
+            },
+            {
+                "code": "136A00000N",
+                "abstract": false,
+                "display": "Dietary & Nutritional Service Providers; Dietetic Technician",
+                "definition": "A person trained in food and nutrition who is an integral part of health care and foodservice management teams. A dietetic technician, registered (DTR) has successfully completed at least a two-year associate's degree at a US regionally accredited college or university; a dietetic technician program approved by The American Dietetic Association, including 450 hours of supervised practice experience; a national examination administered by the Commission on Dietetic Registration; and continuing professional educational requirements to maintain registration."
+            },
+            {
+                "code": "146L00000N",
+                "abstract": false,
+                "display": "Emergency Medical Service Providers; Emergency Medical Technician, Paramedic",
+                "definition": "An EMT, Paramedic is an individual trained and certified to perform advanced life support (ALS) in medical emergencies based on individual state boards."
+            },
+            {
+                "code": "146M00000N",
+                "abstract": false,
+                "display": "Emergency Medical Service Providers; Emergency Medical Technician, Intermediate",
+                "definition": "An Intermediate EMT is an individual trained and certified to perform intermediate life support treatment in medical emergencies based on individual state boards."
+            },
+            {
+                "code": "146N00000N",
+                "abstract": false,
+                "display": "Emergency Medical Service Providers; Emergency Medical Technician, Basic",
+                "definition": "A Basic EMT is an individual trained and certified to perform basic life support treatment in medical emergencies based on individual state boards."
+            },
+            {
+                "code": "152W00000N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Optometrist",
+                "definition": "An optometrist is a person qualified by a Doctor of Optometry (O.D. ) degree, licensed by the state and practicing within the scope of that license. Optometrists examine the eyes and related structures to determine the presence of any abnormality and prescribe and adapt lenses or optical aids. They use drugs for diagnosis in all states and for treatment in some states. They do not perform surgery.",
+                "concept": [
+                    {
+                        "code": "152WC0800N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Contact Lens"
+                    },
+                    {
+                        "code": "152WL0500N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Low Vision"
+                    },
+                    {
+                        "code": "152WP0200N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Pediatrics"
+                    },
+                    {
+                        "code": "152WS0006N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Sports Vision"
+                    },
+                    {
+                        "code": "152WV0400N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Vision Therapy"
+                    },
+                    {
+                        "code": "152WX0102N",
+                        "abstract": false,
+                        "display": "Eye and Vision Service Providers; Optometrist; Occupational Vision"
+                    }
+                ]
+            },
+            {
+                "code": "156FC0800N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Contact Lens"
+            },
+            {
+                "code": "156FC0801N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Contact Lens Fitter"
+            },
+            {
+                "code": "156FX1100N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Ophthalmic"
+            },
+            {
+                "code": "156FX1101N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Ophthalmic Medical Assistant"
+            },
+            {
+                "code": "156FX1201N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Optometric Assistant"
+            },
+            {
+                "code": "156FX1202N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Optometric Technician"
+            },
+            {
+                "code": "156FX1700N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Ocularist"
+            },
+            {
+                "code": "156FX1800N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Optician"
+            },
+            {
+                "code": "156FX1900N",
+                "abstract": false,
+                "display": "Eye and Vision Service Providers; Technician/Technologist; Orthoptist"
+            },
+            {
+                "code": "163W00000N",
+                "abstract": false,
+                "display": "Nursing Service Providers; Registered Nurse",
+                "definition": "(1) A registered nurse is a person qualified by graduation from an accredited nursing school (depending upon schooling, a registered nurse may receive either a diploma from a hospital program, an associate degree in nursing (A.D.N.) or a Bachelor of Science degree in nursing (B.S.N.), who is licensed or certified by the state, and is practicing within the scope of that license or certification. R.N.'s assist patient in recovering and maintaining their physical or mental health. They assist physicians during treatments and examinations and administer medications. (2) A provider who is trained and educated in a formal nursing education program at an accredited school of nursing, passes a national certification examination, and is licensed by the state to practice nursing. The individual provides nursing services to patients or clients in areas such as health promotion, disease prevention, acute and chronic care and restoration and maintenance of health across the life span.",
+                "concept": [
+                    {
+                        "code": "163WA0400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Addiction (Substance Use Disorder)"
+                    },
+                    {
+                        "code": "163WA2000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Administrator"
+                    },
+                    {
+                        "code": "163WC0200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Critical Care Medicine"
+                    },
+                    {
+                        "code": "163WC0400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Case Management"
+                    },
+                    {
+                        "code": "163WC1400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; College Health"
+                    },
+                    {
+                        "code": "163WC1500N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Community Health"
+                    },
+                    {
+                        "code": "163WC1600N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Continuing Education/Staff Development"
+                    },
+                    {
+                        "code": "163WC2100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Continence Care"
+                    },
+                    {
+                        "code": "163WC3500N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Cardiac Rehabilitation"
+                    },
+                    {
+                        "code": "163WD0400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Diabetes Educator"
+                    },
+                    {
+                        "code": "163WD1100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Dialysis, Peritoneal"
+                    },
+                    {
+                        "code": "163WE0003N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Emergency"
+                    },
+                    {
+                        "code": "163WE0900N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Enterstomal Therapy"
+                    },
+                    {
+                        "code": "163WF0300N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Flight"
+                    },
+                    {
+                        "code": "163WG0000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; General Practice"
+                    },
+                    {
+                        "code": "163WG0100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Gastroenterology"
+                    },
+                    {
+                        "code": "163WG0600N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Gerontology"
+                    },
+                    {
+                        "code": "163WH0200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Home Health"
+                    },
+                    {
+                        "code": "163WH0500N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Hemodialysis"
+                    },
+                    {
+                        "code": "163WH1000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Hospice"
+                    },
+                    {
+                        "code": "163WI0500N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Infusion Therapy"
+                    },
+                    {
+                        "code": "163WI0600N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Infection Control"
+                    },
+                    {
+                        "code": "163WL0100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Lactation Consultant"
+                    },
+                    {
+                        "code": "163WM0102N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Maternal Newborn"
+                    },
+                    {
+                        "code": "163WM0705N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Medical-Surgical"
+                    },
+                    {
+                        "code": "163WM1400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Massage Therapy"
+                    },
+                    {
+                        "code": "163WN0002N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Neonatal Intensive Care"
+                    },
+                    {
+                        "code": "163WN0003N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Neonatal, Low-Risk"
+                    },
+                    {
+                        "code": "163WN0300N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Nephrology"
+                    },
+                    {
+                        "code": "163WN0800N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Neuroscience"
+                    },
+                    {
+                        "code": "163WN1003N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Nutrition Support"
+                    },
+                    {
+                        "code": "163WP0000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Pain Management"
+                    },
+                    {
+                        "code": "163WP0200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Pediatrics"
+                    },
+                    {
+                        "code": "163WP0218N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Pediatric Oncology"
+                    },
+                    {
+                        "code": "163WP0807N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Psychiatric/Mental Health, Child & Adolescent"
+                    },
+                    {
+                        "code": "163WP0808N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Psychiatric/Mental Health"
+                    },
+                    {
+                        "code": "163WP0809N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Psychiatric/Mental Health, Adult"
+                    },
+                    {
+                        "code": "163WP1700N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Perinatal"
+                    },
+                    {
+                        "code": "163WP2200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Post-Anesthesia"
+                    },
+                    {
+                        "code": "163WP2201N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Post-Anesthesia, Ambulatory"
+                    },
+                    {
+                        "code": "163WR0400N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Rehabilitation"
+                    },
+                    {
+                        "code": "163WR1000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Reproductive Endocrinology/Infertility"
+                    },
+                    {
+                        "code": "163WS0121N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Surgery, Plastic"
+                    },
+                    {
+                        "code": "163WS0200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; School"
+                    },
+                    {
+                        "code": "163WU0100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Urology"
+                    },
+                    {
+                        "code": "163WW0000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Wound Care"
+                    },
+                    {
+                        "code": "163WW0101N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Women's Health Care, Ambulatory"
+                    },
+                    {
+                        "code": "163WX0002N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Obstetric, High-Risk"
+                    },
+                    {
+                        "code": "163WX0003N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Obstetric, Inpatient"
+                    },
+                    {
+                        "code": "163WX0106N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Occupational Health"
+                    },
+                    {
+                        "code": "163WX0200N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Oncology"
+                    },
+                    {
+                        "code": "163WX0601N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Otorhinolaryngology & Head-Neck"
+                    },
+                    {
+                        "code": "163WX0800N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Orthopedic"
+                    },
+                    {
+                        "code": "163WX1000N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Operating Room"
+                    },
+                    {
+                        "code": "163WX1100N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Ophthalmic"
+                    },
+                    {
+                        "code": "163WX1500N",
+                        "abstract": false,
+                        "display": "Nursing Service Providers; Registered Nurse; Ostomy Care"
+                    }
+                ]
+            },
+            {
+                "code": "164W00000N",
+                "abstract": false,
+                "display": "Nursing Service Providers; Licensed Practical Nurse",
+                "definition": "An individual with post-high school vocational training and practical experience in the provision of nursing care at a level less than that required for certification as a Registered Nurse. Requirements for education, experience, licensure, and job responsibilities vary among the states."
+            },
+            {
+                "code": "164X00000N",
+                "abstract": false,
+                "display": "Nursing Service Providers; Licensed Vocational Nurse",
+                "definition": "An individual with post-high school vocational training and practical experience in the provision of nursing care at a level less than that required for certification as a Registered Nurse. [An alternate term for licensed practical nurse arising from difference in occupational titles between states and post-high school training programs and institutions.] Requirements for education, experience, licensure, and job responsibilities vary among the states."
+            },
+            {
+                "code": "171100000N",
+                "abstract": false,
+                "display": "Other Service Providers; Acupuncturist",
+                "definition": "An acupuncturist is a person who performs ancient therapy for alleviation of pain, anesthesia and treatment of some diseases. Acupuncturists use long, fine needles inserted into specific points in order to treat painful conditions or produce anesthesia."
+            },
+            {
+                "code": "171WH0202N",
+                "abstract": false,
+                "display": "Other Service Providers; Contractor; Home Modifications"
+            },
+            {
+                "code": "172A00000N",
+                "abstract": false,
+                "display": "Other Service Providers; Driver",
+                "definition": "A person employed to operate a motor vehicle as a carrier of persons or property."
+            },
+            {
+                "code": "173000000N",
+                "abstract": false,
+                "display": "Other Service Providers; Legal Medicine",
+                "definition": "The specialty areas of medicine concerned with matters of, and relations with, substantive law and legal institutions; such as the conduct of medical examinations at crime scenes, performance of autopsies, giving of expert medical testimony in judicial proceedings, medical treatment of inmates of penal institutions, the practice of trauma medicine in law enforcement settings, and other clinical practice and medical science applications in the fields of law, law enforcement, and corrections."
+            },
+            {
+                "code": "1744G0900N",
+                "abstract": false,
+                "display": "Other Service Providers; Specialist; Graphics Designer"
+            },
+            {
+                "code": "1744P3200N",
+                "abstract": false,
+                "display": "Other Service Providers; Specialist; Prosthetics Case Management"
+            },
+            {
+                "code": "1744R1102N",
+                "abstract": false,
+                "display": "Other Service Providers; Specialist; Research Study"
+            },
+            {
+                "code": "1744R1103N",
+                "abstract": false,
+                "display": "Other Service Providers; Specialist; Research Data Abstracter/Coder"
+            },
+            {
+                "code": "174MM1900N",
+                "abstract": false,
+                "display": "Other Service Providers; Veterinarian; Medical Research"
+            },
+            {
+                "code": "175F00000N",
+                "abstract": false,
+                "display": "Other Service Providers; Naturopath",
+                "definition": "An individual who practices naturopathy, a system of therapeutics in which neither surgical nor medicinal agents are used, dependence being placed only on natural (nonmedicinal) forces."
+            },
+            {
+                "code": "175L00000N",
+                "abstract": false,
+                "display": "Other Service Providers; Homeopath",
+                "definition": "A provider who is educated and trained in a system of therapeutics in which diseases are treated by drugs which are capable of producing in healthy persons symptoms like those of the disease to be treated. Treatment requires administering a drug in minute doses."
+            },
+            {
+                "code": "175M00000N",
+                "abstract": false,
+                "display": "Other Service Providers; Midwife, Lay (Non-nurse)",
+                "definition": "A person qualified by experience and limited specialized training to provide obstetric and neo-natal care in the management of women having normal pregnancy, labor and childbirth. The lay midwife is licensed in some states."
+            },
+            {
+                "code": "176P00000N",
+                "abstract": false,
+                "display": "Other Service Providers; Funeral Director",
+                "definition": "A person, usually an embalmer, whose business is to arrange for the burial or cremation of the dead and to assist at the funeral rites."
+            },
+            {
+                "code": "183500000N",
+                "abstract": false,
+                "display": "Pharmacy Service Providers; Pharmacist",
+                "definition": "An individual who is licensed to prepare and sell or dispense drugs and compounds and to make up prescriptions.",
+                "concept": [
+                    {
+                        "code": "1835G0000N",
+                        "abstract": false,
+                        "display": "Pharmacy Service Providers; Pharmacist; General Practice"
+                    },
+                    {
+                        "code": "1835N0905N",
+                        "abstract": false,
+                        "display": "Pharmacy Service Providers; Pharmacist; Nuclear Pharmacy"
+                    },
+                    {
+                        "code": "1835N1003N",
+                        "abstract": false,
+                        "display": "Pharmacy Service Providers; Pharmacist; Nutrition Support"
+                    },
+                    {
+                        "code": "1835P1200N",
+                        "abstract": false,
+                        "display": "Pharmacy Service Providers; Pharmacist; Pharmacotherapy"
+                    },
+                    {
+                        "code": "1835P1300N",
+                        "abstract": false,
+                        "display": "Pharmacy Service Providers; Pharmacist; Psychopharmacy"
+                    }
+                ]
+            },
+            {
+                "code": "1847P3400N",
+                "abstract": false,
+                "display": "Pharmacy Service Providers; Technician; Pharmacy"
+            },
+            {
+                "code": "203B00000N",
+                "abstract": false,
+                "display": "Physicians; Physician/Osteopath",
+                "definition": "A physician is a person qualified by a doctorate in medicine (M.D.) or osteopathy (D.O.), licensed by the state, and practicing within the scope of that license. A physician generally has primary responsibility for the health care of the patient. While M.D.s and D.O.s may use all accepted methods of treatment, including drugs and surgery, D.O.s place special emphasis on the body's musculoskeletal systems.",
+                "concept": [
+                    {
+                        "code": "203BA0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Medicine"
+                    },
+                    {
+                        "code": "203BA0001N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Medicine: Family Practice"
+                    },
+                    {
+                        "code": "203BA0002Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Medicine: Internal Medicine"
+                    },
+                    {
+                        "code": "203BA0003Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Medicine: Pediatrics"
+                    },
+                    {
+                        "code": "203BA0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Aerospace Medicine"
+                    },
+                    {
+                        "code": "203BA0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Aerospace Medicine: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BA0200N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Allergy"
+                    },
+                    {
+                        "code": "203BA0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Allergy & Immunology"
+                    },
+                    {
+                        "code": "203BA0202N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Allergy & Immunology: Internal Medicine"
+                    },
+                    {
+                        "code": "203BA0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Anesthesiology"
+                    },
+                    {
+                        "code": "203BA0401N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Addiction Medicine"
+                    },
+                    {
+                        "code": "203BA0501N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Only, Under 16"
+                    },
+                    {
+                        "code": "203BA0502N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Adolescent Only, Under 21"
+                    },
+                    {
+                        "code": "203BA0503N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Age Specific, Greater than 1 Year Old"
+                    },
+                    {
+                        "code": "203BA0504N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Age Specific, Newborns Only"
+                    },
+                    {
+                        "code": "203BB0000N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Blood Banking"
+                    },
+                    {
+                        "code": "203BB0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Blood Banking & Transfusion Medicine"
+                    },
+                    {
+                        "code": "203BB0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Body Imaging"
+                    },
+                    {
+                        "code": "203BC0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cardiac Electrophysiology"
+                    },
+                    {
+                        "code": "203BC0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cardiac Electrophysiology, Clinical"
+                    },
+                    {
+                        "code": "203BC0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cardiology"
+                    },
+                    {
+                        "code": "203BC0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Critical Care Medicine"
+                    },
+                    {
+                        "code": "203BC0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Critical Care Medicine: Anesthesiology"
+                    },
+                    {
+                        "code": "203BC0202Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Critical Care Medicine: Internal Medicine"
+                    },
+                    {
+                        "code": "203BC0203Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Critical Care Medicine: OB/GYN"
+                    },
+                    {
+                        "code": "203BC0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cytogenetics, Clinical"
+                    },
+                    {
+                        "code": "203BC0500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cytopathology"
+                    },
+                    {
+                        "code": "203BC2500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Cardiovascular Disease"
+                    },
+                    {
+                        "code": "203BD0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Dermatology"
+                    },
+                    {
+                        "code": "203BD0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Dermatology Micrographic Surgery"
+                    },
+                    {
+                        "code": "203BD0300N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Diabetes"
+                    },
+                    {
+                        "code": "203BD0900Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Dermatopathology"
+                    },
+                    {
+                        "code": "203BD0901N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Dermatopathology: Dermatology"
+                    },
+                    {
+                        "code": "203BE0004Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Emergency Medicine"
+                    },
+                    {
+                        "code": "203BE0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Endocrinology"
+                    },
+                    {
+                        "code": "203BE0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Endocrinology, Diabetes & Metabolism"
+                    },
+                    {
+                        "code": "203BE0102Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Endocrinology, Reproductive"
+                    },
+                    {
+                        "code": "203BF0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Family Practice"
+                    },
+                    {
+                        "code": "203BF0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Forensic Pathology"
+                    },
+                    {
+                        "code": "203BF0202N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Forensic Psychiatry"
+                    },
+                    {
+                        "code": "203BG0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; General Practice"
+                    },
+                    {
+                        "code": "203BG0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Gastroenterology"
+                    },
+                    {
+                        "code": "203BG0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Genetics, Medical"
+                    },
+                    {
+                        "code": "203BG0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Genetics, Clinical (M.D.)"
+                    },
+                    {
+                        "code": "203BG0202Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Genetics, Clinical Biochemical"
+                    },
+                    {
+                        "code": "203BG0203Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Genetics, Clinical Molecular"
+                    },
+                    {
+                        "code": "203BG0204Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Genetics, Clinical Biochemical/ Molecular"
+                    },
+                    {
+                        "code": "203BG0300N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Geriatric Medicine"
+                    },
+                    {
+                        "code": "203BG0301Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Geriatric Medicine: Family Practice"
+                    },
+                    {
+                        "code": "203BG0302Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Geriatric Medicine: General Practice"
+                    },
+                    {
+                        "code": "203BG0303Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Geriatric Medicine: Internal Medicine"
+                    },
+                    {
+                        "code": "203BG0400N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Gynecology"
+                    },
+                    {
+                        "code": "203BH0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Hematology"
+                    },
+                    {
+                        "code": "203BH0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Hematology: Internal Medicine"
+                    },
+                    {
+                        "code": "203BH0002Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Hematology: Pathology"
+                    },
+                    {
+                        "code": "203BH0003Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Hematology & Oncology"
+                    },
+                    {
+                        "code": "203BI0001N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Clinical & Laboratory"
+                    },
+                    {
+                        "code": "203BI0002N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Clinical & Laboratory Dermatological"
+                    },
+                    {
+                        "code": "203BI0003Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Dermatological"
+                    },
+                    {
+                        "code": "203BI0004Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology: Laboratory , Diagnostic"
+                    },
+                    {
+                        "code": "203BI0005N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Clinical & Laboratory: Allergy & Immunology"
+                    },
+                    {
+                        "code": "203BI0006N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Clinical & Laboratory: Internal Medicine"
+                    },
+                    {
+                        "code": "203BI0007N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunology, Clinical & Laboratory: Pediatric"
+                    },
+                    {
+                        "code": "203BI0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Immunopathology"
+                    },
+                    {
+                        "code": "203BI0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Infectious Diseases"
+                    },
+                    {
+                        "code": "203BI0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Internal Medicine"
+                    },
+                    {
+                        "code": "203BI0400N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Infertility"
+                    },
+                    {
+                        "code": "203BL0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Laboratory Medicine"
+                    },
+                    {
+                        "code": "203BM0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Maternal & Fetal Medicine"
+                    },
+                    {
+                        "code": "203BM0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Medical Diseases of the Chest"
+                    },
+                    {
+                        "code": "203BM0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Medical Microbiology"
+                    },
+                    {
+                        "code": "203BN0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neonatal-Perinatal Medicine"
+                    },
+                    {
+                        "code": "203BN0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neonatology"
+                    },
+                    {
+                        "code": "203BN0200N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neopathology"
+                    },
+                    {
+                        "code": "203BN0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nephrology"
+                    },
+                    {
+                        "code": "203BN0400Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neurology"
+                    },
+                    {
+                        "code": "203BN0402Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neurology, Child"
+                    },
+                    {
+                        "code": "203BN0500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neuropathology"
+                    },
+                    {
+                        "code": "203BN0600Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neurophysiology, Clinical"
+                    },
+                    {
+                        "code": "203BN0700Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Neuroradiology"
+                    },
+                    {
+                        "code": "203BN0900Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nuclear Medicine"
+                    },
+                    {
+                        "code": "203BN0901Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nuclear Cardiology"
+                    },
+                    {
+                        "code": "203BN0902Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nuclear Imaging & Therapy"
+                    },
+                    {
+                        "code": "203BN0903Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nuclear Medicine, In Vivo & In Vitro"
+                    },
+                    {
+                        "code": "203BN0904Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Nuclear Radiology"
+                    },
+                    {
+                        "code": "203BP0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pain Management - Anesthesiology"
+                    },
+                    {
+                        "code": "203BP0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology"
+                    },
+                    {
+                        "code": "203BP0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Anatomic"
+                    },
+                    {
+                        "code": "203BP0102Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Anatomic & Clinical"
+                    },
+                    {
+                        "code": "203BP0103Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Anatomic & Laboratory Medicine"
+                    },
+                    {
+                        "code": "203BP0104Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Chemical"
+                    },
+                    {
+                        "code": "203BP0105Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Clinical"
+                    },
+                    {
+                        "code": "203BP0107N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pathology, Radioisotopic"
+                    },
+                    {
+                        "code": "203BP0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatrics"
+                    },
+                    {
+                        "code": "203BP0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Allergy & Immunology"
+                    },
+                    {
+                        "code": "203BP0202Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Cardiology"
+                    },
+                    {
+                        "code": "203BP0203Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Critical Care Medicine"
+                    },
+                    {
+                        "code": "203BP0204Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Emergency Medicine"
+                    },
+                    {
+                        "code": "203BP0205Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Endocrinology"
+                    },
+                    {
+                        "code": "203BP0206Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Gastroenterology"
+                    },
+                    {
+                        "code": "203BP0207Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Hematology Oncology"
+                    },
+                    {
+                        "code": "203BP0208Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Infectious Diseases"
+                    },
+                    {
+                        "code": "203BP0209Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Intensive Care"
+                    },
+                    {
+                        "code": "203BP0210Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Nephrology"
+                    },
+                    {
+                        "code": "203BP0211Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Neurology"
+                    },
+                    {
+                        "code": "203BP0212Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Otolaryngology"
+                    },
+                    {
+                        "code": "203BP0213Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Pathology"
+                    },
+                    {
+                        "code": "203BP0214Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Pulmonology"
+                    },
+                    {
+                        "code": "203BP0215N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Radiology"
+                    },
+                    {
+                        "code": "203BP0216Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Rheumatology"
+                    },
+                    {
+                        "code": "203BP0220N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pediatric Medical Toxocology"
+                    },
+                    {
+                        "code": "203BP0400Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Physical Medicine & Rehabilitation"
+                    },
+                    {
+                        "code": "203BP0500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Preventive Medicine, General"
+                    },
+                    {
+                        "code": "203BP0600Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Proctology"
+                    },
+                    {
+                        "code": "203BP0800Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry"
+                    },
+                    {
+                        "code": "203BP0801Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry & Neurology"
+                    },
+                    {
+                        "code": "203BP0802Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry, Addiction"
+                    },
+                    {
+                        "code": "203BP0803Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry, Child"
+                    },
+                    {
+                        "code": "203BP0804Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry, Child & Adolescent"
+                    },
+                    {
+                        "code": "203BP0805Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry, Geriatric"
+                    },
+                    {
+                        "code": "203BP0806N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychiatry, Pediatric"
+                    },
+                    {
+                        "code": "203BP0901N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Public Health & General Preventive Medicine"
+                    },
+                    {
+                        "code": "203BP0903Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Public Health: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BP1001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pulmonary Diseases"
+                    },
+                    {
+                        "code": "203BP1003Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pulmonary Medicine"
+                    },
+                    {
+                        "code": "203BP1200N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pharmacotherapy"
+                    },
+                    {
+                        "code": "203BP1300N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Psychopharmacy"
+                    },
+                    {
+                        "code": "203BP2600N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pharmacology, Clinical"
+                    },
+                    {
+                        "code": "203BP2900N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Pain Medicine"
+                    },
+                    {
+                        "code": "203BR0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiation Oncology"
+                    },
+                    {
+                        "code": "203BR0002Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiation Therapy"
+                    },
+                    {
+                        "code": "203BR0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiology"
+                    },
+                    {
+                        "code": "203BR0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiology, Angiography & Interventional"
+                    },
+                    {
+                        "code": "203BR0202Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiology, Diagnostic"
+                    },
+                    {
+                        "code": "203BR0203N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiology, Therapeutic"
+                    },
+                    {
+                        "code": "203BR0204N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiology, Vascular & Interventional"
+                    },
+                    {
+                        "code": "203BR0205N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radiological Physics"
+                    },
+                    {
+                        "code": "203BR0300N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Radium Therapy"
+                    },
+                    {
+                        "code": "203BR0402Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Rehabilitation Medicine"
+                    },
+                    {
+                        "code": "203BR0500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Rheumatology"
+                    },
+                    {
+                        "code": "203BR0600N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Rhinology"
+                    },
+                    {
+                        "code": "203BR0700Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Roentgenology"
+                    },
+                    {
+                        "code": "203BR0701Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Roentgenology, Diagnostic"
+                    },
+                    {
+                        "code": "203BS0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Sports Medicine"
+                    },
+                    {
+                        "code": "203BS0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Sports Medicine: Emergency Medicine"
+                    },
+                    {
+                        "code": "203BS0002Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Sports Medicine: Family Practice"
+                    },
+                    {
+                        "code": "203BS0003Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Sports Medicine: Internal Medicine"
+                    },
+                    {
+                        "code": "203BS0004Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Sports Medicine: Pediatrics"
+                    },
+                    {
+                        "code": "203BS0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, General"
+                    },
+                    {
+                        "code": "203BS0101Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Colon & Rectal Surgery"
+                    },
+                    {
+                        "code": "203BS0102Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgical Critical Care: Surgery"
+                    },
+                    {
+                        "code": "203BS0104N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Abdominal"
+                    },
+                    {
+                        "code": "203BS0105Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Hand"
+                    },
+                    {
+                        "code": "203BS0106Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Hand: Orthopedic Surgery"
+                    },
+                    {
+                        "code": "203BS0107Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Hand: Plastic Surgery"
+                    },
+                    {
+                        "code": "203BS0108N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Head & Neck"
+                    },
+                    {
+                        "code": "203BS0110Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Neurological"
+                    },
+                    {
+                        "code": "203BS0111Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Obstetric & Gynecologic"
+                    },
+                    {
+                        "code": "203BS0113Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic"
+                    },
+                    {
+                        "code": "203BS0114N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic, Adult Reconstructive"
+                    },
+                    {
+                        "code": "203BS0115N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic, Musculoskeletal Oncology"
+                    },
+                    {
+                        "code": "203BS0116N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic, Pediatric"
+                    },
+                    {
+                        "code": "203BS0117N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic, Spine"
+                    },
+                    {
+                        "code": "203BS0119N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Orthopedic, Trauma"
+                    },
+                    {
+                        "code": "203BS0120Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Pediatric"
+                    },
+                    {
+                        "code": "203BS0121Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Plastic"
+                    },
+                    {
+                        "code": "203BS0122Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Plastic & Reconstructive"
+                    },
+                    {
+                        "code": "203BS0123Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Facial Plastic"
+                    },
+                    {
+                        "code": "203BS0125Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Thoracic"
+                    },
+                    {
+                        "code": "203BS0126Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Thoracic Cardiovascular"
+                    },
+                    {
+                        "code": "203BS0127N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Traumatic"
+                    },
+                    {
+                        "code": "203BS0128Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Urological"
+                    },
+                    {
+                        "code": "203BS0129Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, General Vascular"
+                    },
+                    {
+                        "code": "203BS0130Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Otorhinolaryngology & Facial Plastic Surgery"
+                    },
+                    {
+                        "code": "203BS0133N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Surgery, Cardiovascular"
+                    },
+                    {
+                        "code": "203BT0000Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Toxicology, Medical"
+                    },
+                    {
+                        "code": "203BT0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Toxicology, Medical: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BT0002Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Toxicology, Medical: Emergency Medicine"
+                    },
+                    {
+                        "code": "203BT0100N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Thermography"
+                    },
+                    {
+                        "code": "203BU0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Ultrasound, Diagnostic"
+                    },
+                    {
+                        "code": "203BU0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Urology"
+                    },
+                    {
+                        "code": "203BU0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Underseas Medicine: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BX0000N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Obstetrics"
+                    },
+                    {
+                        "code": "203BX0001Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Obstetrics & Gynecology"
+                    },
+                    {
+                        "code": "203BX0100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Occupational Medicine"
+                    },
+                    {
+                        "code": "203BX0104Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Occupational Medicine: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BX0105Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Occupational-Environmental Medicine: Preventive Medicine"
+                    },
+                    {
+                        "code": "203BX0200Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Oncology"
+                    },
+                    {
+                        "code": "203BX0201Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Oncology, Gynecologic"
+                    },
+                    {
+                        "code": "203BX0202Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Oncology, Medical"
+                    },
+                    {
+                        "code": "203BX0300Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Ophthalmology"
+                    },
+                    {
+                        "code": "203BX0500Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Otolaryngology"
+                    },
+                    {
+                        "code": "203BX0600Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Otorhinolaryngology"
+                    },
+                    {
+                        "code": "203BX0601N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Otorhinolaryngology & Head-Neck"
+                    },
+                    {
+                        "code": "203BX0800N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Orthopedic"
+                    },
+                    {
+                        "code": "203BX0900N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Otology"
+                    },
+                    {
+                        "code": "203BX0901N",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Otology & Neurotology"
+                    },
+                    {
+                        "code": "203BX2100Y",
+                        "abstract": false,
+                        "display": "Physicians; Physician/Osteopath; Osteopathic Manipulative Medicine, Special Proficiency"
+                    }
+                ]
+            },
+            {
+                "code": "211D00000N",
+                "abstract": false,
+                "display": "Podiatric Medicine & Surgery Service; Assistant, Podiatric",
+                "definition": "An individual who assists a podiatrist in tasks, such as exposing and developing x-rays; taking and recording patient histories; assisting in biomechanical evaluations and negative castings; preparing and sterilizing instruments and equipment; providing the patient with postoperative instructions; applying surgical dressings; preparing the patient for treatment, padding, and strapping; and performing routine office procedures."
+            },
+            {
+                "code": "213E00000N",
+                "abstract": false,
+                "display": "Podiatric Medicine & Surgery Service; Podiatrist",
+                "definition": "A podiatrist is a person qualified by a Doctor of Podiatric Medicine (D.P.M.) degree, licensed by the state, and practicing within the scope of that license. Podiatrists diagnose and treat foot diseases and deformities. They perform medical, surgical and other operative procedures, prescribe corrective devices and prescribe and administer drugs and physical therapy.",
+                "concept": [
+                    {
+                        "code": "213EG0000N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; General Practice"
+                    },
+                    {
+                        "code": "213EP0504N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Preventive Medicine: Public Health"
+                    },
+                    {
+                        "code": "213EP1101N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Primary Podiatric Medicine"
+                    },
+                    {
+                        "code": "213ER0200N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Radiology"
+                    },
+                    {
+                        "code": "213ES0000N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Sports Medicine"
+                    },
+                    {
+                        "code": "213ES0103N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Surgery, Foot & Ankle"
+                    },
+                    {
+                        "code": "213ES0131N",
+                        "abstract": false,
+                        "display": "Podiatric Medicine & Surgery Service; Podiatrist; Surgery, Foot"
+                    }
+                ]
+            },
+            {
+                "code": "221700000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Art Therapist",
+                "definition": "(1) An individual who uses art to achieve the therapeutic goals of symptom relief, emotional integration, and recovery from or adjustment to illness or disability. (2) An art therapist uses a form of treatment that enables patients with mental or physical disabilities to use art as a way of expressing and dealing with feelings and inner conflicts. (3) An individual who uses arts modalities and creative processes during intentional intervention in therapeutic, rehabilitative, community, or educational settings to foster health, communication, and expression; promote the integration of physical, emotional, cognitive, and social functioning; enhance self-awareness; and facilitate change."
+            },
+            {
+                "code": "222Z00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Orthotist",
+                "definition": "An individual skilled in the practice, making, use and application to individual cases of an orthopedic appliance or apparatus used to support, align, prevent or correct deformities or to improve the function of movable parts of the body."
+            },
+            {
+                "code": "224P00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Prosthetist",
+                "definition": "An individual skilled in the practice, making, use, and application to individual cases of an artificial substitute for a missing body part, such as an arm or leg, eye or tooth, used for functional or cosmetic reasons, or both."
+            },
+            {
+                "code": "224Z00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapy Assistant",
+                "definition": "An Occupational Therapy assistant: provides medically prescribed occupational therapy services under the supervision of a registered occupational therapist to promote rehabilitation of patients in the hospital, home, schools and other settings; has completed a 2-year associate degree or one of the limited number of certificate programs; has met the qualifications as determined by the representative assembly and thus is entitled to use the term Certified occupational therapy assistant."
+            },
+            {
+                "code": "225000000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Orthotics/Prosthetics Fitter",
+                "definition": "An individual skilled in the practice, making, use and application to individual cases of an orthopedic appliance or apparatus used to support, align, prevent or correct deformities or to improve the function of movable parts of the body."
+            },
+            {
+                "code": "225100000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist",
+                "definition": "(1) Physical therapists are health care professionals who evaluate and treat people with health problems resulting from injury or disease. PT's assess joint motion, muscle strength and endurance, function of heart and lungs, and performance of activities required in daily living, among other responsibilities. Treatment includes therapeutic exercises, cardiovascular endurance training, and training in activities of daily living. (2) A physical therapist is a person qualified by an accredited program in physical therapy, licensed by the state, and practicing within the scope of that license. Physical therapists treat disease, injury, or loss of a bodily part by physical means, such as the application of light, heat, cold, water, electricity, massage and exercise. They develop treatment plans based upon each patient's strengths, weaknesses, range of motion and ability to function. (3) A health professional who specializes in physical therapy- the health care field concerned primarily with the treatment of disorders with physical agents and methods, such as massage, manipulation, therapeutic exercises, cold, heat (including short-wave, microwave, and ultrasonic diathermy), hydrotherapy, electric stimulation and light to assist in rehabilitating patients and in restoring normal function after an illness or injury.",
+                "concept": [
+                    {
+                        "code": "2251C0400N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Case Management"
+                    },
+                    {
+                        "code": "2251C2600N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Cardiopulmonary"
+                    },
+                    {
+                        "code": "2251E1200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Ergonomics"
+                    },
+                    {
+                        "code": "2251E1300N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Electrophysiology, Clinical"
+                    },
+                    {
+                        "code": "2251G0304N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Geriatrics"
+                    },
+                    {
+                        "code": "2251H1200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Hand"
+                    },
+                    {
+                        "code": "2251H1300N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Human Factors"
+                    },
+                    {
+                        "code": "2251N0400N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Neurology"
+                    },
+                    {
+                        "code": "2251P0200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Pediatrics"
+                    },
+                    {
+                        "code": "2251S0007N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Sports"
+                    },
+                    {
+                        "code": "2251X0800N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Physical Therapist; Orthopedic"
+                    }
+                ]
+            },
+            {
+                "code": "225200000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Physical Therapy Assistant",
+                "definition": "(1)Physical therapist assistants are skilled health care providers who are graduates of a physical therapist assistant associate degree program accredited by an agency recognized by the Secretary of the U.S. Department of Education or Council on Postsecondary Accreditation, who assists the physical therapist in providing physical therapy. The supervising physical therapist is directly responsible for the actions of the physical therapist assistant. The PTA performs physical therapy procedures and related tasks that have been selected and delegated by the supervising physical therapist. Duties of the PTA include assisting the physical therapist in implementing treatment programs, training patients in exercised and activities of daily living, conducting treatments, and reporting to the physical therapist on the patient's responses. In addition to direct patient care, the PTA may also perform such functions as patient transport, and clinic or equipment preparation and maintenance. Currently more than half of all states require PTAs to be licensed, registered or certified. (2) An individual who works under the supervision of a physical therapist to assist him or her in providing physical therapy services. A physical therapy assistant may, for instance, help patients follow an appropriate exercise program that will increase their strength, endurance, coordination, and range of motion and train patients to perform activities of daily life."
+            },
+            {
+                "code": "225400000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Rehabilitation Practitioner",
+                "definition": "A health care practitioner who trains or retrains individuals disabled by disease or injury to help them attain their maximum functional capacity."
+            },
+            {
+                "code": "2255A2300N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Specialist/Technologist; Athletic Trainer"
+            },
+            {
+                "code": "2255R0406N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Specialist/Technologist; Rehabilitation, Blind"
+            },
+            {
+                "code": "225600000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Dance Therapist",
+                "definition": "The dance therapist, sometimes called a movement therapist, focuses on rhythmic body movements as a medium of physical and psychological change. Dance therapy is practiced more often with mental health patients than with physically disabled patients. A master's degree is required by the American Dance Therapy Association to award the credentials Dance Therapist Registered (DTR)."
+            },
+            {
+                "code": "225700000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Massage Therapist",
+                "definition": "An individual trained in the manipulation of tissues (as by rubbing, stroking, kneading, or tapping) with the hand or an instrument for remedial or hygienic purposes."
+            },
+            {
+                "code": "225800000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Recreation Therapist",
+                "definition": "A recreation therapist uses recreational activities for intervention in some physical, social or emotional behavior to bring about a desired change in that behavior and promote the growth and development of the patient."
+            },
+            {
+                "code": "225900000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Respiratory Therapist",
+                "definition": "A respiratory therapist is a person who has graduated from a respiratory therapy program accredited by the Committee on Allied Health Education and Accreditation, and where applicable, is licensed by the state and is practicing within the scope of that license. A respiratory therapist administers oxygen and other gases and provides assistance with equipment to patients with either acute or chronic breathing difficulties, often within the home.",
+                "concept": [
+                    {
+                        "code": "2259P1700N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Respiratory Therapist; Perinatal"
+                    }
+                ]
+            },
+            {
+                "code": "225A00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Music Therapist",
+                "definition": "The music therapist works with patients with a broad variety of diagnoses and therapeutic goals. The interventions may involve musical performance with instruments, voice or body movements; listening to music; or attending musical events."
+            },
+            {
+                "code": "225B00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Pulmonary Function Technologist",
+                "definition": "An individual who is trained and qualified in the techniques and procedures for assessment and treatment of diseases of the lungs and airways such as pneumonia, cancer, pleurisy, asthma, bronchitis, emphysema, and other disorders. Therapy involves assessment of lung functions, assisting the patient in therapeutic exercise and monitoring mechanical assistance to ventilation."
+            },
+            {
+                "code": "225C00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Rehabilitation Counselor",
+                "definition": "An individual trained and educated in a systematic process of assisting persons with physical, mental, developmental, cognitive, and emotional disabilities to achieve their personal, career, and independent living goals assessment and appraisal, diagnosis and treatment planning, career (vocational) counseling, individual and group counseling interventions for adjustments to the medical and psychosocial impact of disability, case management, program evaluation and research, job analysis and placement counseling, and consultation on rehabilitation resources and technology. Certification generally requires a Master's degree with specialized courses in rehabilitation processes and technology.",
+                "concept": [
+                    {
+                        "code": "225CA2400N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Rehabilitation Counselor; Assistive Technology Practitioner"
+                    }
+                ]
+            },
+            {
+                "code": "225CA2500N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Rehabilitation Counselor; Assistive Technology Supplier"
+            },
+            {
+                "code": "225X00000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist",
+                "definition": "An occupational therapist is a person qualified by completion of an approved program in occupational therapy, licensed by the state and practicing within the scope of that license, or where licensure does not exist, certified by the American Occupational Therapy Certification Board. An occupational therapist evaluates the self-care, work and leisure performance skills of well and disabled clients and plans and implements programs to restore, develop or maintain the task performance skills necessary for daily living and for the client's particular occupational role.",
+                "concept": [
+                    {
+                        "code": "225XC0400N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Case Management"
+                    },
+                    {
+                        "code": "225XE1200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Ergonomics"
+                    },
+                    {
+                        "code": "225XH1200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Hand"
+                    },
+                    {
+                        "code": "225XH1300N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Human Factors"
+                    },
+                    {
+                        "code": "225XN1300N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Neurorehabilitation"
+                    },
+                    {
+                        "code": "225XP0200N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Pediatrics"
+                    },
+                    {
+                        "code": "225XR0403N",
+                        "abstract": false,
+                        "display": "Respiratory, Rehabilitative & Restorative; Occupational Therapist; Rehabilitation, Driver"
+                    }
+                ]
+            },
+            {
+                "code": "226300000N",
+                "abstract": false,
+                "display": "Respiratory, Rehabilitative & Restorative; Kinesiotherapist",
+                "definition": "A provider trained and educated in the applied science of medically prescribed therapeutic exercise, education and adapted physical activities designed to improve the quality of line and health of adults and children by developing physical fitness, increasing mobility and independence, and improving psychosocial behavior. The kinesiotherapist seeks a coach-player relationship in which he/she helps the patient/client reach the goal of becoming an independent, self-sustaining person. Kinesiotherapists, as compared with physical therapists, put more emphasis on geriatric care, reconditioning and fitness, and psychiatric care. A large percentage of kinesiotherapists practice in Veterans Administration hospitals."
+            },
+            {
+                "code": "231H00000N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Audiologist",
+                "definition": "(1) A specialist in evaluation, habilitation and rehabilitation of those whose communication disorders center in whole or in part in hearing function. Audiologists are autonomous professionals who identify, assess, and manage disorders of the auditory, balance and other neural systems. Audiologists provide audiological (aural) rehabilitation to children and adults across the entire age span. Audiologists select, fit and dispense amplification systems such as hearing aids and related devices. (2) An audiologist is a person qualified by a master's degree in audiology, licensed by the state, where applicable, and practicing within the scope of that license. Audiologists evaluate and treat patients with impaired hearing. They plan, direct and conduct rehabilitative programs with audiotry substitutional devises (hearing aids) and other therapy.",
+                "concept": [
+                    {
+                        "code": "231HA2400N",
+                        "abstract": false,
+                        "display": "Speech, Language and Hearing Service; Audiologist; Assistive Technology Practitioner"
+                    },
+                    {
+                        "code": "231HA2500N",
+                        "abstract": false,
+                        "display": "Speech, Language and Hearing Service; Audiologist; Assistive Technology Supplier"
+                    }
+                ]
+            },
+            {
+                "code": "2355A2700N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Specialist/Technologist; Audiology Assistant"
+            },
+            {
+                "code": "2355S0801N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Specialist/Technologist; Speech-Language Assistant"
+            },
+            {
+                "code": "235Z00000N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Speech-Language Pathologist",
+                "definition": "A speech pathologist is a person qualified by a master's degree in speech-language pathology, and where applicable, licensed by the state and practicing within the scope of the license. Also, known as speech therapist, a speech pathologist evaluates patients with language and speech impairments or disorders, whether arising from physiological and neurological disturbances, defective articulation or foreign dialects, and conducts remedial programs designed to restore or improve their communication efficacy. Speech pathologists assess and treat persons with speech, language, voice, and fluency disorders."
+            },
+            {
+                "code": "237600000N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Audiologist-Hearing Aid Fitter",
+                "definition": "An audiologist/hearing aid fitter is the professional who specializes in evaluating and treating people with hearing loss, conducts a wide variety of tests to determine the exact nature of an individual's hearing problem, presents a variety of treatment options to patients, dispenses and fits hearing aids, administers tests of balance to evaluate dizziness and provides hearing rehabilitation training. This classification should be used where individuals are licensed as \"audiologist-hearing aid fitters\" as opposed to states that license individuals as \"audiologists\"."
+            },
+            {
+                "code": "237700000N",
+                "abstract": false,
+                "display": "Speech, Language and Hearing Service; Hearing Instrument Specialist",
+                "definition": "Individuals who test hearing for the selection, adaptation, fitting, adjusting, servicing, and sale of hearing aids. Hearing Instrument Specialist is a designation provided individuals who qualify by the National Hearing Aid Society."
+            },
+            {
+                "code": "246QB0000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Blood Banking"
+            },
+            {
+                "code": "246QC1000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Chemistry"
+            },
+            {
+                "code": "246QC2700N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Cytotechnology"
+            },
+            {
+                "code": "246QH0000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Hematology"
+            },
+            {
+                "code": "246QH0401N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Hemapheresis Practitioner"
+            },
+            {
+                "code": "246QH0600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Histology"
+            },
+            {
+                "code": "246QI0000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Immunology"
+            },
+            {
+                "code": "246QL0900N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Laboratory Management"
+            },
+            {
+                "code": "246QL0901N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Laboratory Management, Diplomate"
+            },
+            {
+                "code": "246QM0706N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Medical Technologist"
+            },
+            {
+                "code": "246QM0900N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Pathology; Microbiology"
+            },
+            {
+                "code": "246RH0600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Pathology; Histology"
+            },
+            {
+                "code": "246RM2200N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Pathology; Medical Laboratory"
+            },
+            {
+                "code": "246RP1900N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Pathology; Phlebotomy"
+            },
+            {
+                "code": "246VC0100N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Cardiology"
+            },
+            {
+                "code": "246VC2400N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Cardiopulmonary-Cardiovascular"
+            },
+            {
+                "code": "246VC2901N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Cardiovascular: Invasive Technology"
+            },
+            {
+                "code": "246VC2902N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Cardiovascular: Noninvasive Technology"
+            },
+            {
+                "code": "246VC2903N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Cardiovascular: Vascular Technology"
+            },
+            {
+                "code": "246VP3600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Perfusionist"
+            },
+            {
+                "code": "246VS1301N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Sonography, Diagnostic Cardiac"
+            },
+            {
+                "code": "246VV0100N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Cardiology; Vascular"
+            },
+            {
+                "code": "246WC3000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Cardiology; Cardiographic"
+            },
+            {
+                "code": "246WE0400N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Cardiology; ECG"
+            },
+            {
+                "code": "246YC3301N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Health Information; Coding Specialist, Hospital Based"
+            },
+            {
+                "code": "246YC3302N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Health Information; Coding Specialist, Physician Office Based"
+            },
+            {
+                "code": "246YR1600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Health Information; Registered Record Administrator"
+            },
+            {
+                "code": "246ZA2600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Art, Medical"
+            },
+            {
+                "code": "246ZB0301N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Biomedical Engineering"
+            },
+            {
+                "code": "246ZB0302N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Biomedical Photographer"
+            },
+            {
+                "code": "246ZB0500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Biochemist"
+            },
+            {
+                "code": "246ZB0600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Biostatistician"
+            },
+            {
+                "code": "246ZE0500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; EEG"
+            },
+            {
+                "code": "246ZE0600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Electroneurodiagnostic"
+            },
+            {
+                "code": "246ZF0200N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Forensic"
+            },
+            {
+                "code": "246ZG0701N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Graphics Methods"
+            },
+            {
+                "code": "246ZG1000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Geneticist, Medical (PhD)"
+            },
+            {
+                "code": "246ZI1000N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Illustration, Medical"
+            },
+            {
+                "code": "246ZN0300N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Nephrology"
+            },
+            {
+                "code": "246ZS0400N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Surgical"
+            },
+            {
+                "code": "246ZV0500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Specialist/Technologist, Other; Virology"
+            },
+            {
+                "code": "2470A2800N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Health Information; Assistant Record Technician"
+            },
+            {
+                "code": "2471C1101N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Cardiovascular-Interventional Technology: Radiography"
+            },
+            {
+                "code": "2471C3401N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Computed Tomography: Radiation Therapy"
+            },
+            {
+                "code": "2471C3402N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Computed Tomography: Radiography"
+            },
+            {
+                "code": "2471D1300N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Dosimetrist, Medical"
+            },
+            {
+                "code": "2471M1201N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Magnetic Resonance Imaging (MRI): Radiation Therapy"
+            },
+            {
+                "code": "2471M1202N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Magnetic Resonance Imaging (MRI): Radiographer"
+            },
+            {
+                "code": "2471M2300N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Mammography: Radiography"
+            },
+            {
+                "code": "2471N0900N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Nuclear Medicine Technology"
+            },
+            {
+                "code": "2471Q0001N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Quality Management: Radiation Therapy"
+            },
+            {
+                "code": "2471Q0002N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Quality Management: Radiographer"
+            },
+            {
+                "code": "2471R0002N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Radiation Therapy"
+            },
+            {
+                "code": "2471R0003N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Radiation Physicist"
+            },
+            {
+                "code": "2471R1500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Radiographer"
+            },
+            {
+                "code": "2471S1302N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Radiologic Technologist; Sonography, Diagnostic Medical"
+            },
+            {
+                "code": "2472B0301N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Other; Biomedical Engineering"
+            },
+            {
+                "code": "2472D0500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Other; Darkroom"
+            },
+            {
+                "code": "2472E0500N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Other; EEG"
+            },
+            {
+                "code": "2472R0900N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Other; Renal Dialysis"
+            },
+            {
+                "code": "2472V0600N",
+                "abstract": false,
+                "display": "Technologists, Technicians & Other; Technician, Other; Veterinary"
+            },
+            {
+                "code": "2514C0400N",
+                "abstract": false,
+                "display": "Agencies; Agency; Case Management"
+            },
+            {
+                "code": "2514H0200N",
+                "abstract": false,
+                "display": "Agencies; Agency; Home Health"
+            },
+            {
+                "code": "2514H0201N",
+                "abstract": false,
+                "display": "Agencies; Agency; Home Infusion"
+            },
+            {
+                "code": "2514H0300N",
+                "abstract": false,
+                "display": "Agencies; Agency; Hospice Care, Community Based"
+            },
+            {
+                "code": "2514N1101N",
+                "abstract": false,
+                "display": "Agencies; Agency; Nursing Care"
+            },
+            {
+                "code": "2514P0906N",
+                "abstract": false,
+                "display": "Agencies; Agency; Public Health or Welfare"
+            },
+            {
+                "code": "2514V0001N",
+                "abstract": false,
+                "display": "Agencies; Agency; Voluntary or Charitable"
+            },
+            {
+                "code": "261QA0600N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Adult Day Care"
+            },
+            {
+                "code": "261QA1903N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Ambulatory Surgical"
+            },
+            {
+                "code": "261QB0400N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Birthing"
+            },
+            {
+                "code": "261QC1500N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Community Health"
+            },
+            {
+                "code": "261QC1800N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Corporate Health"
+            },
+            {
+                "code": "261QD0000N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Dental"
+            },
+            {
+                "code": "261QE0002N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Emergency Care"
+            },
+            {
+                "code": "261QE0700N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; End-Stage Renal Disease (ESRD) Treatment"
+            },
+            {
+                "code": "261QE0800N",
+                "abstract": false,
+                "display": "Endoscopy lab",
+                "definition": "(X12N 261QD0000N)"
+            },
+            {
+                "code": "261QF0400N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Federally Qualified Health Center (FQHC)"
+            },
+            {
+                "code": "261QH0100N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Health"
+            },
+            {
+                "code": "261QI0500N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Infusion Therapy"
+            },
+            {
+                "code": "261QL0400N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Lithotripsy"
+            },
+            {
+                "code": "261QM0801N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Mental Health (Including Community Mental Health Center)"
+            },
+            {
+                "code": "261QM1000N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Migrant Health"
+            },
+            {
+                "code": "261QM1100N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Military"
+            },
+            {
+                "code": "261QM1101N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Military Expanded Services"
+            },
+            {
+                "code": "261QM1102N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Military Operational Component"
+            },
+            {
+                "code": "261QM1200N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Magnetic Resonance Imaging (MRI)"
+            },
+            {
+                "code": "261QM1300N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Multi-Specialty"
+            },
+            {
+                "code": "261QP0904N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Public Health, Federal"
+            },
+            {
+                "code": "261QP0905N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Public Health, State or Local"
+            },
+            {
+                "code": "261QP1100N",
+                "abstract": false,
+                "display": "Podiatry clinic",
+                "definition": "(X12N 261QP1100N)"
+            },
+            {
+                "code": "261QP2000N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Physical Therapy"
+            },
+            {
+                "code": "261QP2300N",
+                "abstract": false,
+                "display": "Primary care clinic",
+                "definition": "(X12N 261QP2300N)"
+            },
+            {
+                "code": "261QP2400N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Prison Health"
+            },
+            {
+                "code": "261QP3300N",
+                "abstract": false,
+                "display": "Pain clinic",
+                "definition": "(X12N 261QP3300N)"
+            },
+            {
+                "code": "261QR0200N",
+                "abstract": false,
+                "display": "Radiology diagnostics or therapeutics unit",
+                "definition": "A practice setting where radiology services (diagnostic or therapeutic) are provided            (X12N 261QR0200N)",
+                "concept": [
+                    {
+                        "code": "261QX0203N",
+                        "abstract": false,
+                        "display": "Radiation oncology unit",
+                        "definition": "(X12N 261QX0203N)"
+                    }
+                ]
+            },
+            {
+                "code": "261QR0206N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Radiology: Mammography"
+            },
+            {
+                "code": "261QR0207N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Radiology: Mobile Mammography"
+            },
+            {
+                "code": "261QR0208N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Radiology: Mobile"
+            },
+            {
+                "code": "261QR0400N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation"
+            },
+            {
+                "code": "261QR0401N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation, Comprehensive Outpatient Rehabilitation Facility (CORF)"
+            },
+            {
+                "code": "261QR0404N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities"
+            },
+            {
+                "code": "261QR0405N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation, Substance Use Disorder"
+            },
+            {
+                "code": "261QR0800N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Recovery Care"
+            },
+            {
+                "code": "261QR1100N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Research"
+            },
+            {
+                "code": "261QR1300N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Rural Health"
+            },
+            {
+                "code": "261QS0112N",
+                "abstract": false,
+                "display": "Oral and maxillofacial surgery clinic"
+            },
+            {
+                "code": "261QS0132N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Surgery, Ophthalmologic"
+            },
+            {
+                "code": "261QS1000N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Student Health"
+            },
+            {
+                "code": "261QS1200N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Sleep Disorder Diagnostic"
+            },
+            {
+                "code": "261QU0200N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Urgent Care"
+            },
+            {
+                "code": "261QV0200N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; VA"
+            },
+            {
+                "code": "261QX0100N",
+                "abstract": false,
+                "display": "Ambulatory Health Care Facilities; Clinic/Center; Occupational Medicine"
+            },
+            {
+                "code": "273R00000N",
+                "abstract": false,
+                "display": "Psychiatric hospital unit",
+                "definition": "(X12N 273R00000N)"
+            },
+            {
+                "code": "273Y00000N",
+                "abstract": false,
+                "display": "Rehabilitation hospital unit"
+            },
+            {
+                "code": "275N00000N",
+                "abstract": false,
+                "display": "Hospital Units; Medicare Defined Swing Bed Unit",
+                "definition": "A unit of a hospital that has a Medicare provider agreement and has been granted approval from HCFA to provide post-hospital extended care services and be reimbursed as a swing-bed unit."
+            },
+            {
+                "code": "276400000N",
+                "abstract": false,
+                "display": "Hospital Units; Rehabilitation, Substance Use Disorder Unit",
+                "definition": "A distinct part of a hospital that provides medically monitored, interdisciplinary addiction-focused treatment to patients/clients who have psychoactive substance use disorders (commonly referred to as alcohol and drug abuse or substance abuse)."
+            },
+            {
+                "code": "281P00000N",
+                "abstract": false,
+                "display": "Chronic Care Facility",
+                "definition": "(1) A hospital including a physical plant and personnel that provides multidisciplinary diagnosis and treatment for diseases that have one or more of the following characteristics: is permanent; leaves residual disability; is caused by nonreversible pathological alteration; requires special training of the patient for rehabilitation; and/or may be expected to require a long period of supervision or care. In addition, patients require the safety, security, and shelter of these specialized inpatient or partial hospitalization settings. (2) A hospital that provides medical and skilled nursing services to patients with long-term illnesses who are not in an acute phase but who require an intensity of services not available in nursing homes",
+                "concept": [
+                    {
+                        "code": "281PC2000N",
+                        "abstract": false,
+                        "display": "Hospitals; Chronic Disease Hospital; Children"
+                    }
+                ]
+            },
+            {
+                "code": "282N00000N",
+                "abstract": false,
+                "display": "Hospitals; General Acute Care Hospital",
+                "definition": "(X12N 282N00000N)",
+                "concept": [
+                    {
+                        "code": "282NC2000N",
+                        "abstract": false,
+                        "display": "Hospitals; General Acute Care Hospital; Children"
+                    },
+                    {
+                        "code": "282NR1301N",
+                        "abstract": false,
+                        "display": "Hospitals; General Acute Care Hospital; Rural"
+                    },
+                    {
+                        "code": "282NW0100N",
+                        "abstract": false,
+                        "display": "Hospitals; General Acute Care Hospital; Women",
+                        "concept": [
+                            {
+                                "code": "2865C1500N",
+                                "abstract": false,
+                                "display": "Hospitals; Military Hospital; Community Health"
+                            },
+                            {
+                                "code": "2865M2000N",
+                                "abstract": false,
+                                "display": "Hospitals; Military Hospital; Medical Center"
+                            },
+                            {
+                                "code": "2865X1600N",
+                                "abstract": false,
+                                "display": "Hospitals; Military Hospital; Operational Component Facility"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "283Q00000N",
+                "abstract": false,
+                "display": "Hospitals; Psychiatric Hospital",
+                "definition": "An organization including a physical plant and personnel that provides multidisciplinary diagnostic and treatment mental health services to patients requiring the safety, security, and shelter of the inpatient or partial hospitalization settings."
+            },
+            {
+                "code": "283X00000N",
+                "abstract": false,
+                "display": "Rehabilitation hospital",
+                "definition": "(X12N 283X00000N)",
+                "concept": [
+                    {
+                        "code": "283XC2000N",
+                        "abstract": false,
+                        "display": "Hospitals; Rehabilitation Hospital; Children"
+                    }
+                ]
+            },
+            {
+                "code": "284300000N",
+                "abstract": false,
+                "display": "Hospitals; Special Hospital",
+                "definition": "A designation by the AHA of a hospital whose primary function of the institution is to provide diagnostic and treatment services for patients who have specified medical conditions, both surgical and nonsurgical."
+            },
+            {
+                "code": "287300000N",
+                "abstract": false,
+                "display": "Hospitals; Christian Science Sanitorium",
+                "definition": "A Christian Science sanitarium operated, or listed and certified, by The First Church of Christ, Scientist, Boston, Massachusetts, furnishing inpatient hospital care services."
+            },
+            {
+                "code": "291U00000N",
+                "abstract": false,
+                "display": "Laboratories; Clinical Medical Laboratory",
+                "definition": "(1) A clinical laboratory is a facility for the biological, microbiological, serological, chemical, immunohematological, hematological, biophysical, cytological, pathological, or other examination of materials derived from the human body for the purpose of providing information for the diagnosis, prevention, or treatment of any disease or impairment of, human beings. These examinations also include procedures to determine, measure, or otherwise describe the presence or absence of various substances or organisms in the body. Facilities only collecting or preparing specimens (or both) or only serving as a mailing service and not performing testing are not considered clinical laboratories. (2) Any facility that examines materials from the human body for purposes of providing information for the diagnosis, prevention, or treatment of any disease or impairment of, or the assessment of, the health of human beings. Typical divisions of a clinical laboratory include hematology, cytology, bacteriology, histology, biochemistry, medical toxicology, and serology."
+            },
+            {
+                "code": "292200000N",
+                "abstract": false,
+                "display": "Laboratories; Dental Laboratory",
+                "definition": "A commercial laboratory specializing in the construction of dental appliances that conform to a dentist's specifications including the construction of dentures (complete or partial), orthodontic appliances, bridgework, crowns, and inlays."
+            },
+            {
+                "code": "293D00000N",
+                "abstract": false,
+                "display": "Laboratories; Physiological Laboratory",
+                "definition": "A laboratory that operates independently of a hospital and physician's office to furnish physiological diagnostic services (e.g. EEG's , EKG's, scans, etc.). Facilities offering ONLY physiological services are not certified as independent laboratories. If an independent laboratory offers physiological services IN ADDITION to clinical laboratory services, they are surveyed only for compliance with the clinical laboratory regulations because there are no health and safety regulations for physiological services."
+            },
+            {
+                "code": "302F00000N",
+                "abstract": false,
+                "display": "Managed Care Organizations; Exclusive Provider Organization",
+                "definition": "(1) An EPO is a form of PPO, in which patients must visit a caregiver that is specified on its panel of providers (is a participating provider). If a visit to an outside(not participating) provider is made the EPO offers very limited or no coverage for the medical service; (2) While similar to a PPO in that an EPO allows patients to go outside the network for care, if they do so in an EPO, they are required to pay the entire cost of care. An EPO differs from an HMO in that EPO physicians do not receive capitation but instead are reimbursed only for actual services provided; (3) An organization identical to a preferred provider organization except that persons enrolled in the plan are eligible to receive benefits only when they use the services of the contracting providers. No benefits are available when non-contracting providers are used, except in certain emergency situations."
+            },
+            {
+                "code": "302R00000N",
+                "abstract": false,
+                "display": "Managed Care Organizations; Health Maintenance Organization",
+                "definition": "(1) A form of health insurance in which its members prepay a premium for the HMO's health services which generally include inpatient and ambulatory care. For the patient, an HMO means reduced out-of-pocket costs (i.e. no deductible), no paperwork (i.e. insurance forms), and only a small copayment for each office visit to cover the paperwork handled by the HMO; (2) A organization of health care personnel and facilities that provides a comprehensive range of health services to an enrolled population for a fixed sum of money paid in advance for a specified period of time. These health services include a wide variety of medical treatments and consults, inpatient and outpatient hospitalization, home health service, ambulance service, and sometimes dental and pharmacy services. The HMO may be organized as a group model, an individual practice association (IPA), a network model or a staff model."
+            },
+            {
+                "code": "305R00000N",
+                "abstract": false,
+                "display": "Managed Care Organizations; Preferred Provider Organization",
+                "definition": "A group of physicians and/or hospitals who contract with an employer to provide services to their employees. In a PPO, the patient may got to the physician of his/her choice, even if that physician does not participate in the PPO, but the patient receives care at a lower benefit level."
+            },
+            {
+                "code": "305S00000N",
+                "abstract": false,
+                "display": "Managed Care Organizations; Point of Service",
+                "definition": "This product may also be called an open-ended HMO and offers a transition product incorporating features of both HMOs and PPOs. Beneficiaries are enrolled in an HMO but have the option to go outside the networks for an additional cost."
+            },
+            {
+                "code": "311500000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Alzheimer Center (Dementia Center)",
+                "definition": "A freestanding facility or special care unit of a long term care facility focusing on patient care of individuals diagnosed with dementia or Alzheimer's Disease or their related diseases. Six elements of the facility/unit set it apart from other (the rest of the) facilities(y):  (1) Admission of residents with dementia (including those with Alzheimer's disease); (2) Staff who are specially selected, trained, and supervised; (3) Activities that are specifically designed for the cognitively impaired; (4) A marketing of a special care unit in brochures; (5) A high level of family involvement; and  (6) A physical environment designed to keep residents safe and segregated from other populations."
+            },
+            {
+                "code": "311Z00000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Custodial Care Facility",
+                "definition": "A facility providing care that serves to assist an individual in the activities of daily living, such as assistance in walking, getting in and out of bed, bathing, dressing, feeding, and using the toilet, preparation of special diets, and supervision of medication that usually can be self-administered. Custodial care essentially is personal care that does not require the continuing attention of trained medical or paramedical personnel."
+            },
+            {
+                "code": "313M00000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Nursing Facility/Intermediate Care Facility",
+                "definition": "An institution (or a distinct part of an institution) which- (1) is primarily engaged in providing to residents- (A) skilled nursing care and related services for residents who require medical or nursing care, (B) rehabilitation services for the rehabilitation of injured, disabled, or sick persons, or, on a regular basis, health-related care and services to individuals who because of their mental or physical condition require care and services (above the level of room and board) which can be made available to them only through institutional facilities, and is not primarily for the care and treatment of mental diseases; (2) has in effect a transfer agreement with one or more hospitals."
+            },
+            {
+                "code": "314000000N",
+                "abstract": false,
+                "display": "Skilled nursing facility",
+                "definition": "(X12N 314000000N)"
+            },
+            {
+                "code": "315D00000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Hospice, Inpatient",
+                "definition": "A provider organization, or distinct part of the organization, which renders an interdisciplinary program providing palliative care, chiefly medical relief of pain and supporting services, which addresses the emotional, social, financial, and legal needs of terminally ill patients and their families where an institutional care environment is required for the patient."
+            },
+            {
+                "code": "315P00000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Intermediate Care Facility, Mentally Retarded",
+                "definition": "(1) A public institution for care of the mentally retarded or people with related conditions. (2) An institution giving active treatment to mentally retarded or developmentally disabled persons or persons with related conditions. The primary purpose of the institution is to provide health or rehabilitative services to such individuals."
+            },
+            {
+                "code": "317400000N",
+                "abstract": false,
+                "display": "Nursing & Custodial Care Facilities; Christian Science Facility",
+                "definition": "A Christian Science sanitarium operated, or listed and certified, by The First Church of Christ, Scientist, Boston, Massachusetts, furnishing extended care services."
+            },
+            {
+                "code": "322D00000N",
+                "abstract": false,
+                "display": "Residential Treatment Facilities; Residential Treatment Facility for Emotionally Disturbed Children",
+                "definition": "A provider facility or distinct part of the organization which renders an interdisciplinary program of mental health treatment to individuals under 21 years of age who have persistent dysfunction in major life areas. The dysfunction is of an extent and pervasiveness that requires a protected and highly structured therapeutic environment. These organizations, or distinct part of organizations, exclude those that provide acute psychiatric care, partial hospitalization, group living, therapeutic schooling, primary diagnosis substance abuse disorder treatment, or primary diagnosis mental retardation or developmental disability treatment."
+            },
+            {
+                "code": "323P00000N",
+                "abstract": false,
+                "display": "Residential Treatment Facilities; Psychiatric Residential Treatment Facility",
+                "definition": "A residential treatment center (RTC) is a facility or distinct part of a facility that providers, to children and adolescents, a total, twenty-four hour, therapeutically planned group living and learning situation where distinct and individualized psychotherapeutic interventions can take place. residential treatment is a specific level of care to e differentiated from acute, intermediate, and long-term hospital care, when the least restrictive environment is maintained to allow for normalization of the patient's surroundings. The RTC must be both physically and programmatically distinct if it is a part or subunit of a larger treatment program. A RTC is organized and professionally staffed to provide residential treatment of mental disorders to children and adolescents who have sufficient intellectual potential to respond to active treatment (that is , for whom it can reasonably be assumed that treatment of the mental disorder will result in an improved ability to function outside the RTC) for whom outpatient treatment, partial hospitalization or protected and structured environment is medically or psychologically necessary."
+            },
+            {
+                "code": "324500000N",
+                "abstract": false,
+                "display": "Substance use rehabilitation facility",
+                "definition": "(X12N 324500000N)"
+            },
+            {
+                "code": "331L00000N",
+                "abstract": false,
+                "display": "Suppliers; Blood Bank",
+                "definition": "An institution (organization or distinct part thereof) that performs, or is responsible for the performance of, the collection, processing, storage and/or issuance of human blood and blood components, intended for transfusion. The institution may also collect, process, and/or distribute human tissue, including bone marrow and peripheral blood progenitor cells, intended for transplantation."
+            },
+            {
+                "code": "332B00000N",
+                "abstract": false,
+                "display": "Suppliers; Durable Medical Equipment & Medical Supplies",
+                "definition": "A supplier of medical equipment such as respirators, wheelchairs, home dialysis systems, or monitoring systems, that are prescribed by a physician for a patient's use in the home and that are usable for an extended period of time.",
+                "concept": [
+                    {
+                        "code": "332BC3200N",
+                        "abstract": false,
+                        "display": "Suppliers; Durable Medical Equipment & Medical Supplies; Customized Equipment"
+                    },
+                    {
+                        "code": "332BD1200N",
+                        "abstract": false,
+                        "display": "Suppliers; Durable Medical Equipment & Medical Supplies; Dialysis Equipment & Supplies"
+                    },
+                    {
+                        "code": "332BN1400N",
+                        "abstract": false,
+                        "display": "Suppliers; Durable Medical Equipment & Medical Supplies; Nursing Facility Supplies"
+                    },
+                    {
+                        "code": "332BP3500N",
+                        "abstract": false,
+                        "display": "Suppliers; Durable Medical Equipment & Medical Supplies; Parenteral & Enteral Nutrition"
+                    },
+                    {
+                        "code": "332BX2000N",
+                        "abstract": false,
+                        "display": "Suppliers; Durable Medical Equipment & Medical Supplies; Oxygen Equipment & Supplies"
+                    }
+                ]
+            },
+            {
+                "code": "332G00000N",
+                "abstract": false,
+                "display": "Suppliers; Eye Bank",
+                "definition": "An eye bank procures and distributes eyes for transplant, education and research. To promote patient safety, donated eyes and donor medial histories are evaluated based on strict Eye Bank Association of America Medical Standards."
+            },
+            {
+                "code": "332H00000N",
+                "abstract": false,
+                "display": "Suppliers; Eyewear Supplier (Equipment, not the service)",
+                "definition": "An organization that provides spectacles, contact lenses, and other vision enhancement devices prescribed by an optometrist or ophthalmologist."
+            },
+            {
+                "code": "332S00000N",
+                "abstract": false,
+                "display": "Suppliers; Hearing Aid Equipment",
+                "definition": "The manufacture and/or sale of electronic hearing aids, their component parts, and related products and services on a national basis."
+            },
+            {
+                "code": "332U00000N",
+                "abstract": false,
+                "display": "Suppliers; Home Delivered Meals",
+                "definition": "Home-delivered meals are those services or activities designed to prepare and deliver one or more meals a day to an individual's residence in order to prevent institutionalization, malnutrition, and feelings of isolation. Component services or activities may include the cost of personnel, equipment, and food; assessment of nutritional and dietary needs; nutritional education and counseling; socialization services; and information and referral."
+            },
+            {
+                "code": "333600000N",
+                "abstract": false,
+                "display": "Suppliers; Pharmacy",
+                "definition": "A facility used by pharmacists for the compounding and dispensing of medicinal preparations (drug store). A pharmacy is a facility whose primary function is to store, prepare and legally dispense prescription drugs through a licensed pharmacist. It meets any licensing or certification standards set forth by the jurisdiction where it is located."
+            },
+            {
+                "code": "335E00000N",
+                "abstract": false,
+                "display": "Suppliers; Prosthetic/Orthotic Supplier",
+                "definition": "An organization which supplies or vends orthopedic appliances or apparatuses and artificial body parts used to support, align, prevent, or correct deformities or to replace or improve function of body parts."
+            },
+            {
+                "code": "335U00000N",
+                "abstract": false,
+                "display": "Suppliers; Organ Procurement Organization",
+                "definition": "A federally designated organization that works with hospital personnel in retrieval of organs for transplantation. The federal government designates an OPO's service area and the hospitals with which an OPO is to establish working relationships."
+            },
+            {
+                "code": "335V00000N",
+                "abstract": false,
+                "display": "Suppliers; Portable X-Ray Supplier",
+                "definition": "A supplier of diagnostic x-ray services furnished in a place or residence used as the patient's home or, in certain circumstances, in an institution, where the institution cannot bill for the services. Portable x-ray services include: (1) skeletal films involving arms and legs, pelvis, vertebral column, and skull; (2) chest films which do not involve the use of contrast media (except routine screening procedures and tests in connection with routine physical examinations); and  (3) abdominal films which do not involve the use of contrast media.   Procedures and examinations which are excluded from portable x-ray services include the following: (1) procedures involving fluoroscopy;(2) procedures involving the use of contrast media; (3) procedures requiring the administration of a substance to the patient or injection of a substance into the patient and/or special manipulation of the patient; (4) procedures which require special medical skill or knowledge possessed by a doctor of medicine or doctor of osteopathy or which require that medical judgment be exercised; (5) procedures requiring special technical competency and/or special equipment or materials; (6) routine screening procedures; and (7) procedures which are not of a diagnostic nature."
+            },
+            {
+                "code": "3416A0800N",
+                "abstract": false,
+                "display": "Transportation Services; Ambulance; Air"
+            },
+            {
+                "code": "3416L0300N",
+                "abstract": false,
+                "display": "Transportation Services; Ambulance; Land"
+            },
+            {
+                "code": "3416S0300N",
+                "abstract": false,
+                "display": "Transportation Services; Ambulance; Sea"
+            },
+            {
+                "code": "343900000N",
+                "abstract": false,
+                "display": "Transportation Services; Medical Transport (Van)",
+                "definition": "A land vehicle with a capacity to meet special height, clearance, access, and seating, for the conveyance of persons in non-emergency situations. The vehicle may or may not be required to meet local county or state regulations."
+            },
+            {
+                "code": "344600000N",
+                "abstract": false,
+                "display": "Transportation Services; Taxi",
+                "definition": "A land commercial vehicle used for the transporting of persons in non-emergency situations. The vehicle meets local, county or state regulations set forth by the jurisdictions where it is located."
+            },
+            {
+                "code": "353BL0002N",
+                "abstract": false,
+                "display": "Physicians (Other Roles); Physician/Osteopath; Laboratory Service Provider"
+            },
+            {
+                "code": "353BS0900N",
+                "abstract": false,
+                "display": "Physicians (Other Roles); Physician/Osteopath; Supplier"
+            },
+            {
+                "code": "363A00000N",
+                "abstract": false,
+                "display": "Physician Assistants & Advanced Practice Nursing Providers; Physician Assistant",
+                "definition": "A physician assistant is a person who has successfully completed an accredited education program for physician assistant, is licensed by the state and is practicing within the scope of that license. Physician assistants are formally trained to perform many of the routine, time-consuming tasks a physician can do. In some states, they may prescribe medications. They take medical histories, perform physical exams, order lab tests and x-rays, and give inoculations. Most states require that they work under the supervision of a physician.",
+                "concept": [
+                    {
+                        "code": "363AM0700N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Physician Assistant; Medical"
+                    },
+                    {
+                        "code": "363AS0400N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Physician Assistant; Surgical"
+                    }
+                ]
+            },
+            {
+                "code": "363L00000N",
+                "abstract": false,
+                "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner",
+                "definition": "(1)A registered nurse provider with a graduate degree in nursing prepared for advanced practice involving independent and interdependent decision making and direct accountability for clinical judgment across the health care continuum or in a certified specialty. (2) A registered nurse who has completed additional training beyond basic nursing education and who provides primary health care services in accordance with state nurse practice laws or statutes. Tasks performed by nurse practitioners vary with practice requirements mandated by geographic, political, economic, and social factors. Nurse practitioner specialists include, but are not limited to, family nurse practitioners, gerontological nurse practitioners, pediatric nurse practitioners, obstetric-gynecologic nurse practitioners, and school nurse practitioners.",
+                "concept": [
+                    {
+                        "code": "363LA2100N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Acute Care"
+                    },
+                    {
+                        "code": "363LA2200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Adult Health"
+                    },
+                    {
+                        "code": "363LC0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Critical Care Medicine"
+                    },
+                    {
+                        "code": "363LC1500N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Community Health"
+                    },
+                    {
+                        "code": "363LF0000N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Family"
+                    },
+                    {
+                        "code": "363LG0600N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Gerontology"
+                    },
+                    {
+                        "code": "363LN0000N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Neonatal"
+                    },
+                    {
+                        "code": "363LN0005N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Neonatal: Critical Care"
+                    },
+                    {
+                        "code": "363LP0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Pediatrics"
+                    },
+                    {
+                        "code": "363LP0222N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Pediatrics: Critical Care"
+                    },
+                    {
+                        "code": "363LP0223N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Pediatrics: Acute Care"
+                    },
+                    {
+                        "code": "363LP0808N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Psychiatric/Mental Health"
+                    },
+                    {
+                        "code": "363LP1700N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Perinatal"
+                    },
+                    {
+                        "code": "363LP2300N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Primary Care"
+                    },
+                    {
+                        "code": "363LS0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; School"
+                    },
+                    {
+                        "code": "363LW0102N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Women's Health"
+                    },
+                    {
+                        "code": "363LX0001N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Obstetrics & Gynecology"
+                    },
+                    {
+                        "code": "363LX0106N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Practitioner; Occupational Health"
+                    }
+                ]
+            },
+            {
+                "code": "364S00000N",
+                "abstract": false,
+                "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist",
+                "definition": "A registered nurse who, through a graduate degree program in nursing, or through a formal post-basic education program or continuing education courses and clinical experience, is expert in a specialty area of nursing practice within one or more of the components of direct patient/client care, consultation, education, research and administration.",
+                "concept": [
+                    {
+                        "code": "364SA2100N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Acute Care"
+                    },
+                    {
+                        "code": "364SA2200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Adult Health"
+                    },
+                    {
+                        "code": "364SC0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Critical Care Medicine"
+                    },
+                    {
+                        "code": "364SC1501N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Community Health/Public Health"
+                    },
+                    {
+                        "code": "364SC2300N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Chronic Care"
+                    },
+                    {
+                        "code": "364SE0003N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Emergency"
+                    },
+                    {
+                        "code": "364SE1400N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Ethics"
+                    },
+                    {
+                        "code": "364SF0001N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Family Health"
+                    },
+                    {
+                        "code": "364SG0600N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Gerontology"
+                    },
+                    {
+                        "code": "364SH0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Home Health"
+                    },
+                    {
+                        "code": "364SH1100N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Holistic"
+                    },
+                    {
+                        "code": "364SI0800N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Informatics"
+                    },
+                    {
+                        "code": "364SL0600N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Long-Term Care"
+                    },
+                    {
+                        "code": "364SM0705N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Medical-Surgical"
+                    },
+                    {
+                        "code": "364SN0000N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Neonatal"
+                    },
+                    {
+                        "code": "364SN0004N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Neonatal, High-Risk"
+                    },
+                    {
+                        "code": "364SN0800N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Neuroscience"
+                    },
+                    {
+                        "code": "364SP0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Pediatrics"
+                    },
+                    {
+                        "code": "364SP0807N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Child & Adolescent"
+                    },
+                    {
+                        "code": "364SP0808N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health"
+                    },
+                    {
+                        "code": "364SP0809N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Adult"
+                    },
+                    {
+                        "code": "364SP0810N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Child & Family"
+                    },
+                    {
+                        "code": "364SP0811N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Chronically Ill"
+                    },
+                    {
+                        "code": "364SP0812N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Community"
+                    },
+                    {
+                        "code": "364SP0813N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Psychiatric/Mental Health, Geropsychiatric"
+                    },
+                    {
+                        "code": "364SP1700N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Perinatal"
+                    },
+                    {
+                        "code": "364SP2800N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Perioperative"
+                    },
+                    {
+                        "code": "364SR0400N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Rehabilitation"
+                    },
+                    {
+                        "code": "364SR1300N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Rural Health"
+                    },
+                    {
+                        "code": "364SS0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; School"
+                    },
+                    {
+                        "code": "364ST0500N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Transplantation"
+                    },
+                    {
+                        "code": "364SW0102N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Women's Health"
+                    },
+                    {
+                        "code": "364SX0106N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Occupational Health"
+                    },
+                    {
+                        "code": "364SX0200N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Oncology"
+                    },
+                    {
+                        "code": "364SX0204N",
+                        "abstract": false,
+                        "display": "Physician Assistants & Advanced Practice Nursing Providers; Clinical Nurse Specialist; Oncology, Pediatrics"
+                    }
+                ]
+            },
+            {
+                "code": "366B00000N",
+                "abstract": false,
+                "display": "Physician Assistants & Advanced Practice Nursing Providers; Midwife, Certified",
+                "definition": "A provider educated in the independent management of women's health and focusing particularly on pregnancy, childbirth, the post-partum period, care of the newborn, family planning and gynecological needs of women and primary care of women. Certification requires education at the post-secondary level in midwifery and health services."
+            },
+            {
+                "code": "367500000N",
+                "abstract": false,
+                "display": "Physician Assistants & Advanced Practice Nursing Providers; Nurse Anesthetist, Certified Registered",
+                "definition": "(1)A licensed registered nurse with advanced specialty education in anesthesia who, in collaboration with appropriate health care professionals, provides preoperative, intraoperative, and postoperative care to patients and assists in management and resuscitation of critical patients in intensive care, coronary care, and emergency situations. Nurse anesthetists are certified following successful completion of credentials and state licensure review and a national examination directed by the Council on Certification of Nurse Anesthetists. (2) A registered nurse who is qualified by special training to administer anesthesia in collaboration with a physician or dentist and who can assist in the care of patients who are in critical condition."
+            },
+            {
+                "code": "374700000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers",
+                "definition": "(1) A person with specialized training in a narrow field of expertise whose occupation requires training and is skilled in specific technical processes and procedures. (2) An individual having special skill or practical knowledge in an area, such as operation and maintenance of equipment or performance of laboratory procedures involving biochemical analyses. Special technical qualifications are normally required, though an increasing number or technicians also possess university degrees in science, and occasionally doctorate degrees. The distinction between technician and technologist in the health care field is not always clear."
+            },
+            {
+                "code": "3747P1801N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Technician; Personal Care Attendent"
+            },
+            {
+                "code": "374T00000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Christian Science Practitioner/Nurse",
+                "definition": "Providers who are trained and educated to perform and administer services related to health promotion, disease prevention, acute and chronic care, spiritual guidance and comfort for healing and health, restoration of health and health maintenance across the life span."
+            },
+            {
+                "code": "374U00000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Technician; Home Health Aide",
+                "definition": "A person trained to assist public health nurses, home health nurses, and other health professionals in the bedside care of patients in their homes."
+            },
+            {
+                "code": "376G00000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Nursing Home Administrator",
+                "definition": "An individual, often licensed by the state, who is responsible for the management of a nursing home."
+            },
+            {
+                "code": "376J00000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Homemaker",
+                "definition": "A person who, under the supervision of a home health or welfare agency, assists elderly, ill, and disabled persons by providing services intended to preserve independent living and normal family life; frequently, household chores such as cooking and cleaning."
+            },
+            {
+                "code": "376K00000N",
+                "abstract": false,
+                "display": "Nursing Service Related Providers; Nurse's Aide",
+                "definition": "(1) An unlicensed individual who is trained to function in an assistive role to the licensed nurse in the provision of patient/client activities as delegated by the nurse; (2) An individual trained (either on-the-job or through a formal course generally of less than one year) and experienced in performing patient or client-care nursing tasks that do not require the skills of a specialist, technician, or professional. Examples of tasks performed by nurses aides include changing clothes, diapers, and beds; assisting patients to perform exercises or personal hygiene tasks, and supporting communication or social interaction. Specific education and credentials are not required for this work."
+            }
+        ]
+    }
+}
